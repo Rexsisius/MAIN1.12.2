@@ -1,0 +1,80 @@
+2019-12-07 13:46:21,475 main [Loading] INITIALIZING
+Starting TLauncher 2.67 RELEASE
+For more information, visit https://tlauncher.org/
+Startup time: 07.12.2019 13:46:19
+---
+[Loading] LOADING_CONFIGURATION
+Loading configuration from file: C:\Users\User\AppData\Roaming\.tlauncher\tlauncher-2.0.properties
+[Configuration] Constant values: {}
+Machine info: -------------------------------------------------------
+Windows 10 10.0, Java 1.8.0_211, jvm bit x64, 8189 MB RAM
+java path=C:\Program Files\Java\jre1.8.0_211\bin\javaw.exe
+AMD FX(tm)-6300 Six-Core Processor
+ Radeon RX 560 Series, AMD Radeon Graphics Processor (0x67FF), 7878 MB
+-------------------------------------------------------
+Selected locale: ru_RU
+[Loading] LOADING_CONSOLE
+[Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+
+
+2019-12-07 13:46:22,652 main [Downloader2] Loaded configuration: good
+2019-12-07 13:46:22,950 ExtendedThread#4 [Updater] Requesting an update...
+2019-12-07 13:46:22,956 ExtendedThread#4 [Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2019-12-07 13:46:22,957 ExtendedThread#4 [Updater] Making request: http://repo.tlauncher.org/update/lch/update_2.0.json?version=2.67&client=e92f19cb-8a88-4aab-ba18-6037bdf72a48
+2019-12-07 13:46:23,340 ExtendedThread#4 [Updater] Request time: 384 ms
+2019-12-07 13:46:23,342 ExtendedThread#4 [Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2019-12-07 13:46:25,238 main [Browser] Loading resources...
+2019-12-07 13:46:25,582 main [Browser] Loading background...
+2019-12-07 13:46:25,770 main [Browser] Cleaning up after loading:
+2019-12-07 13:46:25,771 main Starting garbage collector: 35 / 78 MB
+2019-12-07 13:46:25,939 main Garbage collector completed: 14 / 112 MB
+2019-12-07 13:46:25,944 main [Loading] LOADING_MANAGERS
+2019-12-07 13:46:25,980 main [LocalVersionList] Base directory: E:\.minecraft
+2019-12-07 13:46:29,019 main [ProfileManager] Refreshing profiles from: E:\.minecraft\TlauncherProfiles.json
+2019-12-07 13:46:29,025 main [AdvertisingStatusObserver]  started to get ad information
+2019-12-07 13:46:29,025 ExtendedThread#4 [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.5.json
+2019-12-07 13:46:30,213 main [AdvertisingStatusObserver]  finished to get add information
+2019-12-07 13:46:30,218 main [Loading] LOADING_WINDOW
+2019-12-07 13:46:30,315 main [Loading] PREPARING_MAINPANE
+2019-12-07 13:46:30,427 ExtendedThread#4 [REPO][SERVER_LIST_REPO] Success: Reached the repo in 208 ms.
+2019-12-07 13:46:30,525 JavaFX Application Thread [JFXStartPageLoader]  start load page: http://page.tlauncher.org/update/downloads/configs/client/index.html
+2019-12-07 13:46:30,532 JavaFX Application Thread [Browser] Running in JavaFX Thread
+2019-12-07 13:46:30,532 JavaFX Application Thread [Browser] Preparing JavaFX...
+2019-12-07 13:46:30,628 JavaFX Application Thread [Browser] Initializing...
+2019-12-07 13:46:32,232 JavaFX Application Thread [JFXStartPageLoader]  succeeded load page: http://page.tlauncher.org/update/downloads/configs/client/index.html during 1
+2019-12-07 13:46:32,233 JavaFX Application Thread [Browser@225460438] Loaded successfully: "http://page.tlauncher.org/update/downloads/configs/client/index.html"
+2019-12-07 13:46:32,421 JavaFX Application Thread [Browser] add listens into server_choose
+2019-12-07 13:46:32,422 JavaFX Application Thread [Browser] finished listens into server_choose
+2019-12-07 13:46:32,778 main [Downloader2] Loaded configuration: good
+2019-12-07 13:46:34,935 main [Loading] POSTINIT_GUI
+2019-12-07 13:46:34,935 main [Frame] Packing main frame...
+2019-12-07 13:46:35,032 main [Frame] Resizing main pane...
+2019-12-07 13:46:35,040 main Updater is already closed. Showing up...
+2019-12-07 13:46:35,041 main Visibility set.
+2019-12-07 13:46:35,042 main [Loading] REFRESHING_INFO
+2019-12-07 13:46:35,044 ExtendedThread#4 [VersionManager] Refreshing versions remotely...
+2019-12-07 13:46:35,046 ExtendedThread#11 [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+2019-12-07 13:46:35,046 main Started! (14867 ms.)
+2019-12-07 13:46:35,047 main [Loading] SUCCESS
+2019-12-07 13:46:35,077 main [TLauncher] show tlauncher!!!
+2019-12-07 13:46:35,077 main [Double running] clear time label
+2019-12-07 13:46:35,198 AsyncObject#12 [REPO][OFFICIAL_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: https://launchermeta.mojang.com/mc/game/
+2019-12-07 13:46:35,199 AsyncObject#13 [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+2019-12-07 13:46:35,200 AsyncObject#14 [REPO][SKIN_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/skin/versions/
+2019-12-07 13:46:35,355 ExtendedThread#11 [REPO][EXTRA_VERSION_REPO] Success: Reached the repo in 309 ms.
+2019-12-07 13:46:35,358 AsyncObject#14 [REPO][SKIN_VERSION_REPO] Success: Reached the repo in 157 ms.
+2019-12-07 13:46:35,368 AsyncObject#13 [REPO][EXTRA_VERSION_REPO] Success: Reached the repo in 168 ms.
+2019-12-07 13:46:35,374 AsyncObject#14 [SkinVersionList] Got in 176 ms
+2019-12-07 13:46:35,413 AsyncObject#13 [ExtraVersionList] Got in 215 ms
+2019-12-07 13:46:35,514 AsyncObject#12 [REPO][OFFICIAL_VERSION_REPO] Success: Reached the repo in 315 ms.
+2019-12-07 13:46:35,644 AsyncObject#12 [OfficialVersionList] Got in 446 ms
+2019-12-07 13:46:35,680 ExtendedThread#4 [VersionManager] Versions has been refreshed (619 ms)
+2019-12-07 13:46:35,753 ExtendedThread#11 [REPO][ADD_HOT_SERVERS_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/lch/additional_hot_servers.json
+2019-12-07 13:46:35,772 ExtendedThread#15 [REPO][HOT_SERVERS_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/lch/servers/hot_servers.json
+2019-12-07 13:46:35,790 Thread-15 run server on  37842
+2019-12-07 13:46:35,955 ExtendedThread#11 [REPO][ADD_HOT_SERVERS_REPO] Success: Reached the repo in 183 ms.
+2019-12-07 13:46:35,966 ExtendedThread#15 [REPO][HOT_SERVERS_REPO] Success: Reached the repo in 176 ms.
+2019-12-07 14:25:23,041 AWT-EventQueue-0 Good bye!
+2019-12-07 14:25:23,299 AWT-EventQueue-0 [TLauncherManager] before clearLibrary E:\.minecraft\mods\advancedmachines-61.0.1.jar E:\.minecraft\mods\advancedsolarpanels-4.3.0.jar E:\.minecraft\mods\aiimprovements-1.12.1-0.0.1b1.jar E:\.minecraft\mods\appliedenergistics2-rv6-stable-7.jar E:\.minecraft\mods\baublelicious-1.4.0-4.jar E:\.minecraft\mods\baubles-1.12-1.5.2.jar E:\.minecraft\mods\betterfps-1.4.8.jar E:\.minecraft\mods\betterhud-1.12.2-1.4.1.jar E:\.minecraft\mods\Bookshelf-1.12.2-2.3.590.jar E:\.minecraft\mods\Botania-r1.10-362.jar E:\.minecraft\mods\brandonscore-1.12.2-2.4.17.208-universal.jar E:\.minecraft\mods\buildcraft-all-7.99.24.4.jar E:\.minecraft\mods\codechickenlib-1.12.2-3.2.3.358-universal.jar E:\.minecraft\mods\cofhcore-1.12.2-4.6.3.27-universal.jar E:\.minecraft\mods\cofhworld-1.12.2-1.3.1.7-universal.jar E:\.minecraft\mods\conarm-1.12.2-1.2.5.3.jar E:\.minecraft\mods\deadlyworld-1.0.0_for_mc1.12.2.jar E:\.minecraft\mods\draconic-evolution-1.12.2-2.3.24.349-universal.jar E:\.minecraft\mods\enchantingplus-1.12.2-5.0.179.jar E:\.minecraft\mods\endercore-1.12.2-0.5.73.jar E:\.minecraft\mods\enderio-1.12.2-5.1.52.jar E:\.minecraft\mods\extrabotany-r1.1-56.jar E:\.minecraft\mods\extrautils2-1.12-1.9.9.jar E:\.minecraft\mods\foamfix-0.10.9-1.12.2.jar E:\.minecraft\mods\forestry_1.12.2-5.8.2.409.jar E:\.minecraft\mods\forgelin-1.8.4.jar E:\.minecraft\mods\GalacticraftCore-1.12.2-4.0.2.238.jar E:\.minecraft\mods\gravitygun-1.12.2-7.1.0.jar E:\.minecraft\mods\hammercore-1.12.2-2.0.5.5.jar E:\.minecraft\mods\hardcoredarkness-mc1.12.2-2.0.jar E:\.minecraft\mods\hwyla-1.8.26-b41_1.12.2.jar E:\.minecraft\mods\ichunutil-1.12.2-7.2.2.jar E:\.minecraft\mods\ImmersiveEngineering-0.12-92.jar E:\.minecraft\mods\increasemobs_1.12.2-v1.1.0.jar E:\.minecraft\mods\industrialcraft-2-2.8.188-ex112.jar E:\.minecraft\mods\industrialwires-1.7-36.jar E:\.minecraft\mods\infernalmobs-1.12.2.jar E:\.minecraft\mods\instantunify-1.12.2-1.1.2.jar E:\.minecraft\mods\inventorytweaks-1.64dev.146.jar E:\.minecraft\mods\jei_1.12.2-4.15.0.292.jar E:\.minecraft\mods\jetif-1.12.2-1.5.1.jar E:\.minecraft\mods\journeymap-1.12.2-5.5.6b1.jar E:\.minecraft\mods\justenoughresources-1.12.2-0.9.2.60.jar E:\.minecraft\mods\Mantle-1.12-1.3.3.55.jar E:\.minecraft\mods\Mekanism-1.12.2-9.8.3.390.jar E:\.minecraft\mods\mekanismgenerators-1.12.2-9.8.3.390.jar E:\.minecraft\mods\MicdoodleCore-1.12.2-4.0.2.238.jar E:\.minecraft\mods\mobrecipes-1.12.2-1.0.2.jar E:\.minecraft\mods\mw-1.11.7.7_mc1.12.2.jar E:\.minecraft\mods\neat1.4-17.jar E:\.minecraft\mods\omlib-1.12.2-3.1.3-246.jar E:\.minecraft\mods\openmodularturrets-1.12.2-3.1.4-356.jar E:\.minecraft\mods\oreberries-1.12.x-0.5.0.jar E:\.minecraft\mods\pewter-1.4.3.jar E:\.minecraft\mods\phosphor-1.12.2-0.2.6+build50-universal.jar E:\.minecraft\mods\quickhomes-1.2.2.jar E:\.minecraft\mods\reap-1.5.3.jar E:\.minecraft\mods\redstoneflux-1.12-2.1.0.6-universal.jar E:\.minecraft\mods\roughmobs2-1.12.2_2.0.15.jar E:\.minecraft\mods\ruins-1.12.2.jar E:\.minecraft\mods\SereneSeasons-1.12.2-1.2.18-universal.jar E:\.minecraft\mods\taiga-1.12.2-1.3.4.jar E:\.minecraft\mods\tc6aspects4jei-0.0.2a.jar E:\.minecraft\mods\tconstruct-1.12.2-2.13.0.171.jar E:\.minecraft\mods\Thaumcraft-1.12.2-6.1.BETA26.jar E:\.minecraft\mods\thaumicadditions-1.12.2-22r.jar E:\.minecraft\mods\thaumicenergistics-2.2.3.jar E:\.minecraft\mods\thaumicjei-1.12.2-1.6.0-27.jar E:\.minecraft\mods\thermalexpansion-1.12.2-5.5.4.43-universal.jar E:\.minecraft\mods\thermalfoundation-1.12.2-2.6.3.27-universal.jar E:\.minecraft\mods\TinkersComplement-1.12.2-0.4.2.jar E:\.minecraft\mods\tinkersdefense-1.4.2.30.jar E:\.minecraft\mods\tinkersjei-1.2.jar E:\.minecraft\mods\tinkertoolleveling-1.12.2-1.1.0.jar E:\.minecraft\mods\tinker_io-1.12.2-rw2.7.1.jar E:\.minecraft\mods\tombmanygraves-1.12-4.2.0.jar E:\.minecraft\mods\travellersbackpack-1.12.2-1.0.19.19.jar E:\.minecraft\mods\ttfr-1.12.1-1.9.1.jar E:\.minecraft\mods\vampirism-1.12.2-1.5.6.jar E:\.minecraft\mods\VanillaFix-1.0.10-99.jar
+2019-12-07 14:25:23,762 AWT-EventQueue-0 [TLauncherManager] written:  []
+2019-12-07 14:25:23,771 AWT-EventQueue-0 [TLauncherManager] after clearLibrary E:\.minecraft\mods\advancedmachines-61.0.1.jar E:\.minecraft\mods\advancedsolarpanels-4.3.0.jar E:\.minecraft\mods\aiimprovements-1.12.1-0.0.1b1.jar E:\.minecraft\mods\appliedenergistics2-rv6-stable-7.jar E:\.minecraft\mods\baublelicious-1.4.0-4.jar E:\.minecraft\mods\baubles-1.12-1.5.2.jar E:\.minecraft\mods\betterfps-1.4.8.jar E:\.minecraft\mods\betterhud-1.12.2-1.4.1.jar E:\.minecraft\mods\Bookshelf-1.12.2-2.3.590.jar E:\.minecraft\mods\Botania-r1.10-362.jar E:\.minecraft\mods\brandonscore-1.12.2-2.4.17.208-universal.jar E:\.minecraft\mods\buildcraft-all-7.99.24.4.jar E:\.minecraft\mods\codechickenlib-1.12.2-3.2.3.358-universal.jar E:\.minecraft\mods\cofhcore-1.12.2-4.6.3.27-universal.jar E:\.minecraft\mods\cofhworld-1.12.2-1.3.1.7-universal.jar E:\.minecraft\mods\conarm-1.12.2-1.2.5.3.jar E:\.minecraft\mods\deadlyworld-1.0.0_for_mc1.12.2.jar E:\.minecraft\mods\draconic-evolution-1.12.2-2.3.24.349-universal.jar E:\.minecraft\mods\enchantingplus-1.12.2-5.0.179.jar E:\.minecraft\mods\endercore-1.12.2-0.5.73.jar E:\.minecraft\mods\enderio-1.12.2-5.1.52.jar E:\.minecraft\mods\extrabotany-r1.1-56.jar E:\.minecraft\mods\extrautils2-1.12-1.9.9.jar E:\.minecraft\mods\foamfix-0.10.9-1.12.2.jar E:\.minecraft\mods\forestry_1.12.2-5.8.2.409.jar E:\.minecraft\mods\forgelin-1.8.4.jar E:\.minecraft\mods\GalacticraftCore-1.12.2-4.0.2.238.jar E:\.minecraft\mods\gravitygun-1.12.2-7.1.0.jar E:\.minecraft\mods\hammercore-1.12.2-2.0.5.5.jar E:\.minecraft\mods\hardcoredarkness-mc1.12.2-2.0.jar E:\.minecraft\mods\hwyla-1.8.26-b41_1.12.2.jar E:\.minecraft\mods\ichunutil-1.12.2-7.2.2.jar E:\.minecraft\mods\ImmersiveEngineering-0.12-92.jar E:\.minecraft\mods\increasemobs_1.12.2-v1.1.0.jar E:\.minecraft\mods\industrialcraft-2-2.8.188-ex112.jar E:\.minecraft\mods\industrialwires-1.7-36.jar E:\.minecraft\mods\infernalmobs-1.12.2.jar E:\.minecraft\mods\instantunify-1.12.2-1.1.2.jar E:\.minecraft\mods\inventorytweaks-1.64dev.146.jar E:\.minecraft\mods\jei_1.12.2-4.15.0.292.jar E:\.minecraft\mods\jetif-1.12.2-1.5.1.jar E:\.minecraft\mods\journeymap-1.12.2-5.5.6b1.jar E:\.minecraft\mods\justenoughresources-1.12.2-0.9.2.60.jar E:\.minecraft\mods\Mantle-1.12-1.3.3.55.jar E:\.minecraft\mods\Mekanism-1.12.2-9.8.3.390.jar E:\.minecraft\mods\mekanismgenerators-1.12.2-9.8.3.390.jar E:\.minecraft\mods\MicdoodleCore-1.12.2-4.0.2.238.jar E:\.minecraft\mods\mobrecipes-1.12.2-1.0.2.jar E:\.minecraft\mods\mw-1.11.7.7_mc1.12.2.jar E:\.minecraft\mods\neat1.4-17.jar E:\.minecraft\mods\omlib-1.12.2-3.1.3-246.jar E:\.minecraft\mods\openmodularturrets-1.12.2-3.1.4-356.jar E:\.minecraft\mods\oreberries-1.12.x-0.5.0.jar E:\.minecraft\mods\pewter-1.4.3.jar E:\.minecraft\mods\phosphor-1.12.2-0.2.6+build50-universal.jar E:\.minecraft\mods\quickhomes-1.2.2.jar E:\.minecraft\mods\reap-1.5.3.jar E:\.minecraft\mods\redstoneflux-1.12-2.1.0.6-universal.jar E:\.minecraft\mods\roughmobs2-1.12.2_2.0.15.jar E:\.minecraft\mods\ruins-1.12.2.jar E:\.minecraft\mods\SereneSeasons-1.12.2-1.2.18-universal.jar E:\.minecraft\mods\taiga-1.12.2-1.3.4.jar E:\.minecraft\mods\tc6aspects4jei-0.0.2a.jar E:\.minecraft\mods\tconstruct-1.12.2-2.13.0.171.jar E:\.minecraft\mods\Thaumcraft-1.12.2-6.1.BETA26.jar E:\.minecraft\mods\thaumicadditions-1.12.2-22r.jar E:\.minecraft\mods\thaumicenergistics-2.2.3.jar E:\.minecraft\mods\thaumicjei-1.12.2-1.6.0-27.jar E:\.minecraft\mods\thermalexpansion-1.12.2-5.5.4.43-universal.jar E:\.minecraft\mods\thermalfoundation-1.12.2-2.6.3.27-universal.jar E:\.minecraft\mods\TinkersComplement-1.12.2-0.4.2.jar E:\.minecraft\mods\tinkersdefense-1.4.2.30.jar E:\.minecraft\mods\tinkersjei-1.2.jar E:\.minecraft\mods\tinkertoolleveling-1.12.2-1.1.0.jar E:\.minecraft\mods\tinker_io-1.12.2-rw2.7.1.jar E:\.minecraft\mods\tombmanygraves-1.12-4.2.0.jar E:\.minecraft\mods\travellersbackpack-1.12.2-1.0.19.19.jar E:\.minecraft\mods\ttfr-1.12.1-1.9.1.jar E:\.minecraft\mods\vampirism-1.12.2-1.5.6.jar E:\.minecraft\mods\VanillaFix-1.0.10-99.jar

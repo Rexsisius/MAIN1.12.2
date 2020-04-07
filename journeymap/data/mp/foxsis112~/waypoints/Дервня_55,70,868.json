@@ -1,0 +1,18 @@
+{
+  "id": "Дервня_55,70,868",
+  "name": "Дервня",
+  "icon": "waypoint-normal.png",
+  "x": 55,
+  "y": 70,
+  "z": 868,
+  "r": 223,
+  "g": 171,
+  "b": 204,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

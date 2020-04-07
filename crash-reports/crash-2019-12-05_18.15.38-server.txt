@@ -1,0 +1,191 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.73-core.jar)
+  MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.238.jar)
+  TLSkinCapeHookLoader (tlskincape_1.12.2-1.4.jar)
+Contact their authors BEFORE contacting forge
+
+// Why is it breaking :(
+
+Time: 12/5/19 6:15 PM
+Description: Ticking memory connection
+
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 330 path $[1].]
+	at com.google.gson.internal.Streams.parse(Streams.java:60)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65)
+	at net.minecraft.util.JsonUtils.func_188173_a(SourceFile:492)
+	at net.minecraft.util.JsonUtils.func_188176_a(SourceFile:517)
+	at net.minecraft.util.text.ITextComponent$Serializer.func_150699_a(ITextComponent.java:271)
+	at de.teamlapen.vampirism.core.ModEventHandler.onPlayerLoggedIn(ModEventHandler.java:129)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_904_ModEventHandler_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.firePlayerLoggedIn(FMLCommonHandler.java:575)
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:219)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:279)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 330 path $[1].]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559)
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:530)
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:716)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:731)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714)
+	at com.google.gson.internal.Streams.parse(Streams.java:48)
+	... 20 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.google.gson.internal.Streams.parse(Streams.java:60)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65)
+	at net.minecraft.util.JsonUtils.func_188173_a(SourceFile:492)
+	at net.minecraft.util.JsonUtils.func_188176_a(SourceFile:517)
+	at net.minecraft.util.text.ITextComponent$Serializer.func_150699_a(ITextComponent.java:271)
+	at de.teamlapen.vampirism.core.ModEventHandler.onPlayerLoggedIn(ModEventHandler.java:129)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_904_ModEventHandler_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.firePlayerLoggedIn(FMLCommonHandler.java:575)
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:219)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@1d5ad32a
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:279)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_211, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 4759433336 bytes (4538 MB) / 6979321856 bytes (6656 MB) up to 6979321856 bytes (6656 MB)
+	JVM Flags: 8 total; -Xmn128M -Xmx6652M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 Optifine OptiFine_1.12.2_HD_U_F4 54 mods loaded, 54 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                                | Version          | Source                                             | Signature                                |
+	|:------ |:--------------------------------- |:---------------- |:-------------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft                         | 1.12.2           | minecraft.jar                                      | None                                     |
+	| LCHIJA | mcp                               | 9.42             | minecraft.jar                                      | None                                     |
+	| LCHIJA | FML                               | 8.0.99.99        | forge-1.12.2-14.23.5.2847.jar                      | None                                     |
+	| LCHIJA | forge                             | 14.23.5.2847     | forge-1.12.2-14.23.5.2847.jar                      | None                                     |
+	| LCHIJA | micdoodlecore                     |                  | minecraft.jar                                      | None                                     |
+	| LCHIJA | otgcore                           | 1.12.2 - v8.3    | minecraft.jar                                      | None                                     |
+	| LCHIJA | ic2                               | 2.8.188-ex112    | industrialcraft-2-2.8.188-ex112.jar                | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCHIJA | advanced_solar_panels             | 4.3.0            | advancedsolarpanels-4.3.0.jar                      | None                                     |
+	| LCHIJA | appliedenergistics2               | rv6-stable-7     | appliedenergistics2-rv6-stable-7.jar               | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCHIJA | baublelicious                     | 1.4.0-4          | baublelicious-1.4.0-4.jar                          | None                                     |
+	| LCHIJA | baubles                           | 1.5.2            | baubles-1.12-1.5.2.jar                             | None                                     |
+	| LCHIJA | jei                               | 4.15.0.292       | jei_1.12.2-4.15.0.292.jar                          | None                                     |
+	| LCHIJA | thaumcraft                        | 6.1.BETA26       | Thaumcraft-1.12.2-6.1.BETA26.jar                   | None                                     |
+	| LCHIJA | botania                           | r1.10-362        | Botania-r1.10-362.jar                              | None                                     |
+	| LCHIJA | codechickenlib                    | 3.2.3.358        | codechickenlib-1.12.2-3.2.3.358-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | redstoneflux                      | 2.1.0            | redstoneflux-1.12-2.1.0.6-universal.jar            | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LCHIJA | brandonscore                      | 2.4.17           | brandonscore-1.12.2-2.4.17.208-universal.jar       | None                                     |
+	| LCHIJA | buildcraftlib                     | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | buildcraftcore                    | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | buildcraftbuilders                | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | buildcrafttransport               | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | buildcraftsilicon                 | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | buildcraftenergy                  | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | forestry                          | 5.8.2.409        | forestry_1.12.2-5.8.2.409.jar                      | None                                     |
+	| LCHIJA | buildcraftcompat                  | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | buildcraftfactory                 | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | buildcraftrobotics                | 7.99.24.4        | buildcraft-all-7.99.24.4.jar                       | None                                     |
+	| LCHIJA | cofhcore                          | 4.6.3            | cofhcore-1.12.2-4.6.3.27-universal.jar             | None                                     |
+	| LCHIJA | cofhworld                         | 1.3.1            | cofhworld-1.12.2-1.3.1.7-universal.jar             | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LCHIJA | thermalfoundation                 | 2.6.3            | thermalfoundation-1.12.2-2.6.3.27-universal.jar    | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LCHIJA | draconicevolution                 | 2.3.24           | draconic-evolution-1.12.2-2.3.24.349-universal.jar | None                                     |
+	| LCHIJA | endercore                         | 1.12.2-0.5.73    | endercore-1.12.2-0.5.73.jar                        | None                                     |
+	| LCHIJA | thermalexpansion                  | 5.5.4            | thermalexpansion-1.12.2-5.5.4.43-universal.jar     | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LCHIJA | enderio                           | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderiointegrationtic             | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderiobase                       | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderioconduits                   | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderioconduitsappliedenergistics | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderioconduitsopencomputers      | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderioconduitsrefinedstorage     | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderiointegrationforestry        | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderiointegrationticlate         | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderiomachines                   | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | enderiopowertools                 | 5.1.52           | enderio-1.12.2-5.1.52.jar                          | None                                     |
+	| LCHIJA | galacticraftcore                  | 4.0.2.238        | GalacticraftCore-1.12.2-4.0.2.238.jar              | None                                     |
+	| LCHIJA | waila                             | 1.8.26           | hwyla-1.8.26-b41_1.12.2.jar                        | None                                     |
+	| LCHIJA | mekanism                          | 1.12.2-9.8.3.390 | Mekanism-1.12.2-9.8.3.390.jar                      | None                                     |
+	| LCHIJA | openterraingenerator              | v8.3             | openterraingenerator-1.12.2-v8.3.jar               | None                                     |
+	| LCHIJA | tc6aspects4jei                    | 0.0.2a           | tc6aspects4jei-0.0.2a.jar                          | None                                     |
+	| LCHIJA | thaumicenergistics                | 2.2.3            | thaumicenergistics-2.2.3.jar                       | None                                     |
+	| LCHIJA | thaumictravelersdream             | 1.4              | thaumictravelersdream-1.12.2-v1.4.jar              | None                                     |
+	| LCHIJA | tlauncher_custom_cape_skin        | 1.4              | tlskincape_1.12.2-1.4.jar                          | None                                     |
+	| LCHIJA | vampirism                         | 1.5.6            | vampirism-1.12.2-1.5.6.jar                         | None                                     |
+	| LCHIJA | teamlapen-lib                     | 1.5.6            | vampirism-1.12.2-1.5.6.jar                         | None                                     |
+
+	Loaded coremods (and transformers): 
+MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  mekanism.coremod.KeybindingMigrationHelper
+OTGCorePlugin (OTG-Core.jar)
+  com.pg85.otg.forge.asm.excluded.OTGClassTransformer
+EnderCorePlugin (EnderCore-1.12.2-0.5.73-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.238.jar)
+  micdoodle8.mods.miccore.MicdoodleTransformer
+TLSkinCapeHookLoader (tlskincape_1.12.2-1.4.jar)
+  gloomyfolken.hooklib.minecraft.PrimaryClassTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	Ender IO: Found the following problem(s) with your installation (That does NOT mean that Ender IO caused the crash or was involved in it in any way. We add this information to help finding common problems, not as an invitation to post any crash you encounter to Ender IO's issue tracker. Always check the stack trace above to see which mod is most likely failing.):
+                  * Optifine is installed. This is NOT supported.
+                 This may (look up the meaning of 'may' in the dictionary if you're not sure what it means) have caused the error. Try reproducing the crash WITHOUT this/these mod(s) before reporting it.
+
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!You are looking at the diagnostics information, not at the crash.       !!!
+	!!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	AE2 Integration: IC2:ON, RC:OFF, MFR:OFF, Waila:ON, InvTweaks:OFF, JEI:ON, Mekanism:ON, OpenComputers:OFF, THE_ONE_PROBE:OFF, TESLA:OFF, CRAFTTWEAKER:OFF
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [GCEntityPlayerMP['TeemoTheEvil'/396, l='ThaumicTraveler'sDream', x=0.50, y=77.00, z=51.50]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	OptiFine Version: OptiFine_1.12.2_HD_U_F4
+	OptiFine Build: 20191023-234904
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.13572 Compatibility Profile Context 19.11.1 26.20.13031.10003
+	OpenGlRenderer: Radeon RX 560 Series
+	OpenGlVendor: ATI Technologies Inc.
+	CpuCount: 6
