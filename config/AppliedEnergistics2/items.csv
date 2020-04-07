@@ -713,7 +713,9 @@ forestry:resource_storage:2, Оловянный блок
 forestry:resource_storage:3, Бронзовый блок
 forestry:ash_brick:0, Кирпичи из золы
 forestry:ash_stairs:0, Ступеньки из золы
-forestry:database:0, База данных
+forestry:honeyed_slice, Бутерброд с мёдом
+forestry:ambrosia, Амброзия
+forestry:honey_pot, Горшочек мёда
 forestry:grafter, Садовый нож
 forestry:grafter_proven, Проверенный садовый нож
 forestry:logs.0:0, Древесина лиственницы
@@ -1166,33 +1168,6 @@ forestry:leaves.decorative.2:0, Листва дынного дерева
 forestry:leaves.decorative.2:1, Листва финиковой пальмы
 forestry:leaves.decorative.2:2, Листва белого тополя
 forestry:tree_chest:0, Сундук лесовода
-forestry:worktable:0, Рабочий стол
-forestry:stamps:0, Почтовая марка (1n)
-forestry:stamps:1, Почтовая марка (2n)
-forestry:stamps:2, Почтовая марка (5n)
-forestry:stamps:3, Почтовая марка (10n)
-forestry:stamps:4, Почтовая марка (20n)
-forestry:stamps:5, Почтовая марка (50n)
-forestry:stamps:6, Почтовая марка (100n)
-forestry:letters, Письмо
-forestry:catalogue, Каталог
-forestry:mailbox:0, Почтовый ящик
-forestry:trade_station:0, Торговая станция
-forestry:stamp_collector:0, Сборщик марок
-forestry:honeyed_slice, Бутерброд с мёдом
-forestry:ambrosia, Амброзия
-forestry:honey_pot, Горшочек мёда
-forestry:greenhouse:0, Парниковый блок
-forestry:greenhouse:3, Распределитель парниковой энергии
-forestry:greenhouse:4, Парниковый контроль
-forestry:greenhouse:5, Парниковый экран
-forestry:climatiser:0, Тепличный терморегулятор
-forestry:climatiser:1, Подогреватель парника
-forestry:climatiser:2, Вентилятор парника
-forestry:climatiser:3, Увлажнитель парника
-forestry:climatiser:4, Осушитель парника
-forestry:greenhouse.window:0, Окно парника
-forestry:greenhouse.window_up:0, Окно крыши парника
 forestry:fluid.bio.ethanol, Этанол
 forestry:fluid.biomass, Биомасса
 forestry:fluid.glass, Жидкое стекло
@@ -1205,66 +1180,9 @@ forestry:fluid.short.mead, Питный мёд
 forestry:can, item.for.can.name
 forestry:capsule, item.for.capsule.name
 forestry:refractory, item.for.refractory.name
-forestry:habitat_locator, Определитель ареала
-forestry:imprinter, Импринтер
-forestry:cart.beehouse:0, Вагонетка с пчелиным домиком
-forestry:cart.beehouse:1, Вагонетка с пасекой
-forestry:frame_untreated, Необработанная рамка
-forestry:frame_impregnated, Пропитанная рамка
-forestry:frame_proven, Проверенная рамка
-forestry:honey_drop:0, Капля мёда
-forestry:pollen:0, Скопление пыльцы
-forestry:pollen:1, Скопление кристаллической пыльцы
-forestry:propolis:0, Прополис
-forestry:propolis:1, Липкий прополис
-forestry:propolis:3, Шелковистый прополис
-forestry:honeydew, Медвяная роса
-forestry:royal_jelly, Маточное молочко
-forestry:wax_cast, Восковая форма
-forestry:bee_combs:0, Медовые соты
-forestry:bee_combs:2, Кипящие соты
-forestry:bee_combs:3, Вязкие соты
-forestry:bee_combs:4, Морозные соты
-forestry:bee_combs:5, Капающие соты
-forestry:bee_combs:6, Шелковистые соты
-forestry:bee_combs:7, Пересохшие соты
-forestry:bee_combs:15, Замшелые соты
-forestry:bee_combs:16, Спелые соты
-forestry:apiarist_helmet, Защитная маска пчеловода
-forestry:apiarist_chest, Куртка пчеловода
-forestry:apiarist_legs, Штаны пчеловода
-forestry:apiarist_boots, Ботинки пчеловода
-forestry:scoop, Сачок
-forestry:smoker, Дымарь
-forestry:apiary:0, Пасека
-forestry:bee_house:0, Пчелиный домик
-forestry:bee_chest:0, Сундук пчеловода
-forestry:beehives:0, Лесной улей
-forestry:beehives:1, Луговой улей
-forestry:beehives:2, Пустынный улей
-forestry:beehives:3, Тропический улей
-forestry:beehives:4, Драконий улей
-forestry:beehives:5, Снежный улей
-forestry:beehives:6, Болотный улей
-forestry:candle:0, Тёмная свеча
-forestry:stump:0, Потухшая свеча
-forestry:bee_combs_0:0, Блок медовых сот
-forestry:bee_combs_0:2, Блок кипящих сот
-forestry:bee_combs_0:3, Блок вязких сот
-forestry:bee_combs_0:4, Блок морозных сот
-forestry:bee_combs_0:5, Блок капающих сот
-forestry:bee_combs_0:6, Блок шелковистых сот
-forestry:bee_combs_0:7, Блок пересохших сот
-forestry:bee_combs_0:15, Блок замшелых сот
-forestry:bee_combs_1:0, Блок спелых сот
-forestry:alveary.plain:0, Пчелиный улей
-forestry:alveary.swarmer:0, Роевня
-forestry:alveary.fan:0, Вентилятор улья
-forestry:alveary.heater:0, Обогреватель улья
-forestry:alveary.hygro:0, Кондиционер улья
-forestry:alveary.stabiliser:0, Стабилизатор улья
-forestry:alveary.sieve:0, Сито улья
-forestry:book_forester, Руководство лесника
+forestry:butterfly_chest:0, Сундук лепидоптеролога
+forestry:cocoon:0, tile.for.cocoon.name
+forestry:cocoon.solid:0, tile.for.cocoon.solid.name
 forestry:charcoal:0, Блок древесного угля
 forestry:wood_pile:0, Охапка дров
 forestry:wood_pile_decorative:0, Декоративная охапка дров
@@ -1273,16 +1191,7 @@ forestry:ash_block_1:0, Блок пепла
 forestry:ash_block_2:0, Блок пепла
 forestry:ash_block_3:0, Блок пепла
 forestry:loam:0, Суглинок
-forestry:bottler:0, Разливочный механизм
-forestry:carpenter:0, Плотник
-forestry:centrifuge:0, Центрифуга
-forestry:fermenter:0, Бродильный аппарат
-forestry:moistener:0, Увлажнитель
-forestry:squeezer:0, Соковыжималка
-forestry:still:0, Дистиллятор
-forestry:rainmaker:0, Генератор дождя
-forestry:fabricator:0, Электроламповый завод
-forestry:raintank:0, Бак для дождя
+forestry:book_forester, Руководство лесника
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, Блок фермы
@@ -1354,14 +1263,26 @@ forestry:farm_ender:0, Ферма Края (управляемый)
 forestry:farm_ender:1, Ферма Края (руководство)
 forestry:peat_bog:0, Торфяник (управляемый)
 forestry:peat_bog:1, Торфяник (руководство)
-forestry:genetic_filter:0, Генетический фильтр
-forestry:butterfly_chest:0, Сундук лепидоптеролога
-forestry:cocoon:0, tile.for.cocoon.name
-forestry:cocoon.solid:0, tile.for.cocoon.solid.name
 forestry:engine_peat:0, Торфяной двигатель
 forestry:engine_biogas:0, Биогазовый двигатель
 forestry:engine_clockwork:0, Заводной двигатель
+forestry:greenhouse:0, Парниковый блок
+forestry:greenhouse:3, Распределитель парниковой энергии
+forestry:greenhouse:4, Парниковый контроль
+forestry:greenhouse:5, Парниковый экран
+forestry:climatiser:0, Тепличный терморегулятор
+forestry:climatiser:1, Подогреватель парника
+forestry:climatiser:2, Вентилятор парника
+forestry:climatiser:3, Увлажнитель парника
+forestry:climatiser:4, Осушитель парника
+forestry:greenhouse.window:0, Окно парника
+forestry:greenhouse.window_up:0, Окно крыши парника
+forestry:worktable:0, Рабочий стол
+forestry:database:0, База данных
+forestry:habitat_former:0, Бывшая среда обитания
+forestry:habitat_screen, Экран среды обитания
 forestry:crate, Ящик
+forestry:genetic_filter:0, Генетический фильтр
 forestry:apiarist_bag, Рюкзак пчеловода
 forestry:lepidopterist_bag, Рюкзак лепидоптеролога
 forestry:miner_bag, Рюкзак шахтёра
@@ -1376,8 +1297,87 @@ forestry:adventurer_bag, Рюкзак авантюриста
 forestry:adventurer_bag_t2, Тканый рюкзак авантюриста
 forestry:builder_bag, Рюкзак строителя
 forestry:builder_bag_t2, Тканый рюкзак строителя
-forestry:habitat_former:0, Бывшая среда обитания
-forestry:habitat_screen, Экран среды обитания
+forestry:bottler:0, Разливочный механизм
+forestry:carpenter:0, Плотник
+forestry:centrifuge:0, Центрифуга
+forestry:fermenter:0, Бродильный аппарат
+forestry:moistener:0, Увлажнитель
+forestry:squeezer:0, Соковыжималка
+forestry:still:0, Дистиллятор
+forestry:rainmaker:0, Генератор дождя
+forestry:fabricator:0, Электроламповый завод
+forestry:raintank:0, Бак для дождя
+forestry:stamps:0, Почтовая марка (1n)
+forestry:stamps:1, Почтовая марка (2n)
+forestry:stamps:2, Почтовая марка (5n)
+forestry:stamps:3, Почтовая марка (10n)
+forestry:stamps:4, Почтовая марка (20n)
+forestry:stamps:5, Почтовая марка (50n)
+forestry:stamps:6, Почтовая марка (100n)
+forestry:letters, Письмо
+forestry:catalogue, Каталог
+forestry:mailbox:0, Почтовый ящик
+forestry:trade_station:0, Торговая станция
+forestry:stamp_collector:0, Сборщик марок
+forestry:habitat_locator, Определитель ареала
+forestry:imprinter, Импринтер
+forestry:cart.beehouse:0, Вагонетка с пчелиным домиком
+forestry:cart.beehouse:1, Вагонетка с пасекой
+forestry:frame_untreated, Необработанная рамка
+forestry:frame_impregnated, Пропитанная рамка
+forestry:frame_proven, Проверенная рамка
+forestry:honey_drop:0, Капля мёда
+forestry:pollen:0, Скопление пыльцы
+forestry:pollen:1, Скопление кристаллической пыльцы
+forestry:propolis:0, Прополис
+forestry:propolis:1, Липкий прополис
+forestry:propolis:3, Шелковистый прополис
+forestry:honeydew, Медвяная роса
+forestry:royal_jelly, Маточное молочко
+forestry:wax_cast, Восковая форма
+forestry:bee_combs:0, Медовые соты
+forestry:bee_combs:2, Кипящие соты
+forestry:bee_combs:3, Вязкие соты
+forestry:bee_combs:4, Морозные соты
+forestry:bee_combs:5, Капающие соты
+forestry:bee_combs:6, Шелковистые соты
+forestry:bee_combs:7, Пересохшие соты
+forestry:bee_combs:15, Замшелые соты
+forestry:bee_combs:16, Спелые соты
+forestry:apiarist_helmet, Защитная маска пчеловода
+forestry:apiarist_chest, Куртка пчеловода
+forestry:apiarist_legs, Штаны пчеловода
+forestry:apiarist_boots, Ботинки пчеловода
+forestry:scoop, Сачок
+forestry:smoker, Дымарь
+forestry:apiary:0, Пасека
+forestry:bee_house:0, Пчелиный домик
+forestry:bee_chest:0, Сундук пчеловода
+forestry:beehives:0, Лесной улей
+forestry:beehives:1, Луговой улей
+forestry:beehives:2, Пустынный улей
+forestry:beehives:3, Тропический улей
+forestry:beehives:4, Драконий улей
+forestry:beehives:5, Снежный улей
+forestry:beehives:6, Болотный улей
+forestry:candle:0, Тёмная свеча
+forestry:stump:0, Потухшая свеча
+forestry:bee_combs_0:0, Блок медовых сот
+forestry:bee_combs_0:2, Блок кипящих сот
+forestry:bee_combs_0:3, Блок вязких сот
+forestry:bee_combs_0:4, Блок морозных сот
+forestry:bee_combs_0:5, Блок капающих сот
+forestry:bee_combs_0:6, Блок шелковистых сот
+forestry:bee_combs_0:7, Блок пересохших сот
+forestry:bee_combs_0:15, Блок замшелых сот
+forestry:bee_combs_1:0, Блок спелых сот
+forestry:alveary.plain:0, Пчелиный улей
+forestry:alveary.swarmer:0, Роевня
+forestry:alveary.fan:0, Вентилятор улья
+forestry:alveary.heater:0, Обогреватель улья
+forestry:alveary.hygro:0, Кондиционер улья
+forestry:alveary.stabiliser:0, Стабилизатор улья
+forestry:alveary.sieve:0, Сито улья
 binniecore:glass:0, Empty Бутылка
 binniecore:glass:1, Яблочный сок Бутылка
 binniecore:glass:1, Абрикосовый сок Бутылка
@@ -1520,6 +1520,79 @@ genetics:lab_machine:2, Инкубатор
 genetics:lab_machine:3, Генофонд
 genetics:lab_machine:4, Акклиматизатор
 genetics:adv_machine:0, Сплайсер
+botany:plant:0, Сорняк
+botany:plant:1, Длинный сорняк
+botany:plant:2, Очень длинный сорняк
+botany:plant:3, Мертвый цветок
+botany:plant:4, Разлагающийся цветок
+botany:soil:0, Почва
+botany:soil:1, Почва
+botany:soil:2, Почва
+botany:soil:3, Почва
+botany:soil:4, Почва
+botany:soil:5, Почва
+botany:soil:6, Почва
+botany:soil:7, Почва
+botany:soil:8, Почва
+botany:loam:0, Суглинок
+botany:loam:1, Суглинок
+botany:loam:2, Суглинок
+botany:loam:3, Суглинок
+botany:loam:4, Суглинок
+botany:loam:5, Суглинок
+botany:loam:6, Суглинок
+botany:loam:7, Суглинок
+botany:loam:8, Суглинок
+botany:flowerbed:0, Клумба
+botany:flowerbed:1, Клумба
+botany:flowerbed:2, Клумба
+botany:flowerbed:3, Клумба
+botany:flowerbed:4, Клумба
+botany:flowerbed:5, Клумба
+botany:flowerbed:6, Клумба
+botany:flowerbed:7, Клумба
+botany:flowerbed:8, Клумба
+botany:soil_no_weed:0, Почва
+botany:soil_no_weed:1, Почва
+botany:soil_no_weed:2, Почва
+botany:soil_no_weed:3, Почва
+botany:soil_no_weed:4, Почва
+botany:soil_no_weed:5, Почва
+botany:soil_no_weed:6, Почва
+botany:soil_no_weed:7, Почва
+botany:soil_no_weed:8, Почва
+botany:loam_no_weed:0, Суглинок
+botany:loam_no_weed:1, Суглинок
+botany:loam_no_weed:2, Суглинок
+botany:loam_no_weed:3, Суглинок
+botany:loam_no_weed:4, Суглинок
+botany:loam_no_weed:5, Суглинок
+botany:loam_no_weed:6, Суглинок
+botany:loam_no_weed:7, Суглинок
+botany:loam_no_weed:8, Суглинок
+botany:flowerbed_no_weed:0, Клумба
+botany:flowerbed_no_weed:1, Клумба
+botany:flowerbed_no_weed:2, Клумба
+botany:flowerbed_no_weed:3, Клумба
+botany:flowerbed_no_weed:4, Клумба
+botany:flowerbed_no_weed:5, Клумба
+botany:flowerbed_no_weed:6, Клумба
+botany:flowerbed_no_weed:7, Клумба
+botany:flowerbed_no_weed:8, Клумба
+botany:soil_meter, Измеритель почвы
+botany:trowel_wood, Деревянный шпатель
+botany:trowel_stone, Каменный шпатель
+botany:trowel_iron, Железный шпатель
+botany:trowel_diamond, Алмазный шпатель
+botany:trowel_gold, Золотой шпатель
+botany:misc:0, Порошок золы
+botany:misc:1, Порошок целлюлозы
+botany:misc:2, Компост
+botany:misc:3, Порошок серы
+botany:misc:4, Порошок удобрения
+botany:misc:5, Порошок компоста
+botany:misc:6, Ступка
+botany:misc:7, Антисорняк
 botany:ceramic:0, Керамический блок (Аквамарин)
 botany:ceramic:1, Керамический блок (Черный)
 botany:ceramic:2, Керамический блок (Темно-синий)
@@ -1856,82 +1929,7 @@ botany:clay:78, Желтый глина
 botany:clay:79, Желто-зеленый глина
 botany:misc_ceramic:0, Ступка
 botany:machine:0, Работа с плитками
-botany:plant:0, Сорняк
-botany:plant:1, Длинный сорняк
-botany:plant:2, Очень длинный сорняк
-botany:plant:3, Мертвый цветок
-botany:plant:4, Разлагающийся цветок
-botany:soil:0, Почва
-botany:soil:1, Почва
-botany:soil:2, Почва
-botany:soil:3, Почва
-botany:soil:4, Почва
-botany:soil:5, Почва
-botany:soil:6, Почва
-botany:soil:7, Почва
-botany:soil:8, Почва
-botany:loam:0, Суглинок
-botany:loam:1, Суглинок
-botany:loam:2, Суглинок
-botany:loam:3, Суглинок
-botany:loam:4, Суглинок
-botany:loam:5, Суглинок
-botany:loam:6, Суглинок
-botany:loam:7, Суглинок
-botany:loam:8, Суглинок
-botany:flowerbed:0, Клумба
-botany:flowerbed:1, Клумба
-botany:flowerbed:2, Клумба
-botany:flowerbed:3, Клумба
-botany:flowerbed:4, Клумба
-botany:flowerbed:5, Клумба
-botany:flowerbed:6, Клумба
-botany:flowerbed:7, Клумба
-botany:flowerbed:8, Клумба
-botany:soil_no_weed:0, Почва
-botany:soil_no_weed:1, Почва
-botany:soil_no_weed:2, Почва
-botany:soil_no_weed:3, Почва
-botany:soil_no_weed:4, Почва
-botany:soil_no_weed:5, Почва
-botany:soil_no_weed:6, Почва
-botany:soil_no_weed:7, Почва
-botany:soil_no_weed:8, Почва
-botany:loam_no_weed:0, Суглинок
-botany:loam_no_weed:1, Суглинок
-botany:loam_no_weed:2, Суглинок
-botany:loam_no_weed:3, Суглинок
-botany:loam_no_weed:4, Суглинок
-botany:loam_no_weed:5, Суглинок
-botany:loam_no_weed:6, Суглинок
-botany:loam_no_weed:7, Суглинок
-botany:loam_no_weed:8, Суглинок
-botany:flowerbed_no_weed:0, Клумба
-botany:flowerbed_no_weed:1, Клумба
-botany:flowerbed_no_weed:2, Клумба
-botany:flowerbed_no_weed:3, Клумба
-botany:flowerbed_no_weed:4, Клумба
-botany:flowerbed_no_weed:5, Клумба
-botany:flowerbed_no_weed:6, Клумба
-botany:flowerbed_no_weed:7, Клумба
-botany:flowerbed_no_weed:8, Клумба
-botany:soil_meter, Измеритель почвы
-botany:trowel_wood, Деревянный шпатель
-botany:trowel_stone, Каменный шпатель
-botany:trowel_iron, Железный шпатель
-botany:trowel_diamond, Алмазный шпатель
-botany:trowel_gold, Золотой шпатель
-botany:misc:0, Порошок золы
-botany:misc:1, Порошок целлюлозы
-botany:misc:2, Компост
-botany:misc:3, Порошок серы
-botany:misc:4, Порошок удобрения
-botany:misc:5, Порошок компоста
-botany:misc:6, Ступка
-botany:misc:7, Антисорняк
 botany:botanist_bag, Рюкзак ботаника
-botany:database:0, База данных ботаники
-botany:database:1, База магистерской ботаники
 botany:insulated_tube:0, Медь Глина изолированная электронная трубка
 botany:insulated_tube:128, Медь Булыжник изолированная электронная трубка
 botany:insulated_tube:256, Медь Песчаник изолированная электронная трубка
@@ -1956,6 +1954,8 @@ botany:insulated_tube:259, Железо Песчаник изолированн�
 botany:insulated_tube:387, Железо Затвердевшая глина изолированная электронная трубка
 botany:insulated_tube:515, Железо Гладкий камень изолированная электронная трубка
 botany:insulated_tube:643, Железо Песчаник изолированная электронная трубка
+botany:database:0, База данных ботаники
+botany:database:1, База магистерской ботаники
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_drop:0, Энергетическая капля
 extrabees:honey_drop:1, Кислотная капля
@@ -2173,23 +2173,6 @@ extratrees:food:59, Плод свечного дерева
 extratrees:hammer, item.hammer.name
 extratrees:durable_hammer, item.durable_hammer.name
 extratrees:hops, item.hops.name
-extratrees:databaselepi, item.databaseLepi.name
-extratrees:drink:0, Пивная кружка
-extratrees:drink:0, Стеклянная пинта
-extratrees:drink:0, Стакан для спиртного
-extratrees:drink:0, Стакан "Flute"
-extratrees:drink:0, Стакан для коктейлей
-extratrees:drink:0, Бокал "кордиал"
-extratrees:drink:0, Длинный стакан
-extratrees:drink:0, Хайбол
-extratrees:drink:0, Штормовой стакан
-extratrees:drink:0, Стакан Маргарита
-extratrees:drink:0, Старомодный стакан
-extratrees:drink:0, Бокал для вина
-extratrees:drink:0, Рюмка
-extratrees:drink:0, Лафитник
-extratrees:drink:0, Стакан купе
-extratrees:drink:0, Бокал для вина
 extratrees:logs.0:0, Древесина Яблоня
 extratrees:logs.0:1, Древесина Инжир
 extratrees:logs.0:2, Древесина Масляный орех
@@ -2765,6 +2748,7 @@ extratrees:leaves.decorative.5:14, Листва
 extratrees:leaves.decorative.5:15, Листва
 extratrees:leaves.decorative.6:0, Листва
 extratrees:shrub_log:0, Древесина Кустарник
+extratrees:databaselepi, item.databaseLepi.name
 extratrees:machine:0, Лесопилка
 extratrees:machine:1, Деревообрабатывающий станок
 extratrees:machine:2, Станок для панелей
@@ -2776,6 +2760,22 @@ extratrees:carpentry, tile.null.name
 extratrees:carpentrypanel, tile.null.name
 extratrees:stainedglass, tile.null.name
 extratrees:databasetree, item.databaseTree.name
+extratrees:drink:0, Пивная кружка
+extratrees:drink:0, Стеклянная пинта
+extratrees:drink:0, Стакан для спиртного
+extratrees:drink:0, Стакан "Flute"
+extratrees:drink:0, Стакан для коктейлей
+extratrees:drink:0, Бокал "кордиал"
+extratrees:drink:0, Длинный стакан
+extratrees:drink:0, Хайбол
+extratrees:drink:0, Штормовой стакан
+extratrees:drink:0, Стакан Маргарита
+extratrees:drink:0, Старомодный стакан
+extratrees:drink:0, Бокал для вина
+extratrees:drink:0, Рюмка
+extratrees:drink:0, Лафитник
+extratrees:drink:0, Стакан купе
+extratrees:drink:0, Бокал для вина
 extratrees:binnie.juice.apple, Яблочный сок
 extratrees:binnie.juice.apricot, Абрикосовый сок
 extratrees:binnie.juice.banana, Банановый сок
@@ -4001,6 +4001,14 @@ appliedenergistics2:facade:0, Кабельный фасад - Листва Си�
 appliedenergistics2:facade:0, Кабельный фасад - Листва дынного дерева
 appliedenergistics2:facade:0, Кабельный фасад - Листва финиковой пальмы
 appliedenergistics2:facade:0, Кабельный фасад - Листва белого тополя
+appliedenergistics2:facade:0, Кабельный фасад - Блок древесного угля
+appliedenergistics2:facade:0, Кабельный фасад - Охапка дров
+appliedenergistics2:facade:0, Кабельный фасад - Декоративная охапка дров
+appliedenergistics2:facade:0, Кабельный фасад - Блок пепла
+appliedenergistics2:facade:0, Кабельный фасад - Блок пепла
+appliedenergistics2:facade:0, Кабельный фасад - Блок пепла
+appliedenergistics2:facade:0, Кабельный фасад - Блок пепла
+appliedenergistics2:facade:0, Кабельный фасад - Суглинок
 appliedenergistics2:facade:0, Кабельный фасад - Парниковый блок
 appliedenergistics2:facade:0, Кабельный фасад - Распределитель парниковой энергии
 appliedenergistics2:facade:0, Кабельный фасад - Парниковый контроль
@@ -4019,14 +4027,6 @@ appliedenergistics2:facade:0, Кабельный фасад - Блок шелк�
 appliedenergistics2:facade:0, Кабельный фасад - Блок пересохших сот
 appliedenergistics2:facade:0, Кабельный фасад - Блок замшелых сот
 appliedenergistics2:facade:0, Кабельный фасад - Блок спелых сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок древесного угля
-appliedenergistics2:facade:0, Кабельный фасад - Охапка дров
-appliedenergistics2:facade:0, Кабельный фасад - Декоративная охапка дров
-appliedenergistics2:facade:0, Кабельный фасад - Блок пепла
-appliedenergistics2:facade:0, Кабельный фасад - Блок пепла
-appliedenergistics2:facade:0, Кабельный фасад - Блок пепла
-appliedenergistics2:facade:0, Кабельный фасад - Блок пепла
-appliedenergistics2:facade:0, Кабельный фасад - Суглинок
 appliedenergistics2:facade:0, Кабельный фасад - Древесина Яблоня
 appliedenergistics2:facade:0, Кабельный фасад - Древесина Инжир
 appliedenergistics2:facade:0, Кабельный фасад - Древесина Масляный орех
@@ -5051,7 +5051,6 @@ thaumcraft:phial:1, Пузырёк с эссенцией Desiderium
 thaumcraft:phial:1, Пузырёк с эссенцией Exanimis
 thaumcraft:phial:1, Пузырёк с эссенцией Bestia
 thaumcraft:phial:1, Пузырёк с эссенцией Humanus
-thaumcraft:phial:1, Пузырёк с эссенцией Tempus
 thaumcraft:alumentum:0, Алюментум
 thaumcraft:jar_brace, Латунная крышка
 thaumcraft:bottle_taint, Бутылка с заражением
@@ -5674,52 +5673,52 @@ tconstruct:slime_vine_purple_end:0, Лоза фиолетовой слизи
 tconstruct:slime_vine_purple_mid:0, Лоза фиолетовой слизи
 tconstruct:slime_vine_purple:0, Лоза фиолетовой слизи
 tconstruct:pattern:0, Пустая схема
-tconstruct:pattern:0, Схема - боёк молота
-tconstruct:pattern:0, Схема - отделка брони
-tconstruct:pattern:0, Схема - широкая карда
 tconstruct:pattern:0, Схема - Пластина
-tconstruct:pattern:0, Схема - навершие кирки
-tconstruct:pattern:0, Схема - Battery Cell
-tconstruct:pattern:0, Схема - табличка
-tconstruct:pattern:0, Схема - большая пластина
 tconstruct:pattern:0, Схема - осколок
-tconstruct:pattern:0, Схема - большое лезвие топора
-tconstruct:pattern:0, Схема - лезвие топора
-tconstruct:pattern:0, Схема - лезвие ножа
-tconstruct:pattern:0, Схема - Filigree
-tconstruct:pattern:0, Схема - лезвие меча
-tconstruct:pattern:0, Схема - ядро шлема
-tconstruct:pattern:0, Схема - навершие косы
-tconstruct:pattern:0, Схема - тетива
-tconstruct:pattern:0, Схема - рукоять
 tconstruct:pattern:0, Схема - крепление
-tconstruct:pattern:0, Схема - поперечная гарда
-tconstruct:pattern:0, Схема - Rivets
-tconstruct:pattern:0, Схема - Clasp
-tconstruct:pattern:0, Схема - Pipe Piece
-tconstruct:pattern:0, Схема - ядро понож
-tconstruct:pattern:0, Схема - Kama Head
-tconstruct:pattern:0, Схема - мощная рукоять
-tconstruct:pattern:0, Схема - ядро нагрудника
-tconstruct:pattern:0, Схема - Chainmail
-tconstruct:pattern:0, Схема - широкое лезвие меча
-tconstruct:pattern:0, Схема - плечо лука
-tconstruct:pattern:0, Схема - древко стрелы
-tconstruct:pattern:0, Схема - Armor Plate
-tconstruct:pattern:0, Схема - Ring Shank
-tconstruct:pattern:0, Схема - Laser Medium
-tconstruct:pattern:0, Схема - оперение
-tconstruct:pattern:0, Схема - полотно сковороды
-tconstruct:pattern:0, Схема - оселок
-tconstruct:pattern:0, Схема - полотно лопаты
+tconstruct:pattern:0, Схема - навершие косы
+tconstruct:pattern:0, Схема - лезвие меча
+tconstruct:pattern:0, Схема - лезвие ножа
 tconstruct:pattern:0, Схема - Fabric
-tconstruct:pattern:0, Схема - Ring Setting
-tconstruct:pattern:0, Схема - ядро ботинок
-tconstruct:pattern:0, Схема - мощное крепление
+tconstruct:pattern:0, Схема - полотно лопаты
+tconstruct:pattern:0, Схема - ядро понож
+tconstruct:pattern:0, Схема - наконечник
+tconstruct:pattern:0, Схема - Chainmail
+tconstruct:pattern:0, Схема - Ring Shank
+tconstruct:pattern:0, Схема - Battery Cell
+tconstruct:pattern:0, Схема - большая пластина
+tconstruct:pattern:0, Схема - мощная рукоять
 tconstruct:pattern:0, Схема - малая гарда
 tconstruct:pattern:0, Схема - большое полотно лопаты
-tconstruct:pattern:0, Схема - наконечник
+tconstruct:pattern:0, Схема - большое лезвие топора
+tconstruct:pattern:0, Схема - Laser Medium
+tconstruct:pattern:0, Схема - плечо лука
+tconstruct:pattern:0, Схема - отделка брони
+tconstruct:pattern:0, Схема - Rivets
+tconstruct:pattern:0, Схема - боёк молота
+tconstruct:pattern:0, Схема - Pipe Piece
+tconstruct:pattern:0, Схема - мощное крепление
+tconstruct:pattern:0, Схема - поперечная гарда
+tconstruct:pattern:0, Схема - полотно сковороды
 tconstruct:pattern:0, Схема - Набор для полировки
+tconstruct:pattern:0, Схема - рукоять
+tconstruct:pattern:0, Схема - широкая карда
+tconstruct:pattern:0, Схема - ядро ботинок
+tconstruct:pattern:0, Схема - тетива
+tconstruct:pattern:0, Схема - древко стрелы
+tconstruct:pattern:0, Схема - широкое лезвие меча
+tconstruct:pattern:0, Схема - лезвие топора
+tconstruct:pattern:0, Схема - табличка
+tconstruct:pattern:0, Схема - Clasp
+tconstruct:pattern:0, Схема - Filigree
+tconstruct:pattern:0, Схема - Kama Head
+tconstruct:pattern:0, Схема - навершие кирки
+tconstruct:pattern:0, Схема - Ring Setting
+tconstruct:pattern:0, Схема - ядро нагрудника
+tconstruct:pattern:0, Схема - ядро шлема
+tconstruct:pattern:0, Схема - Armor Plate
+tconstruct:pattern:0, Схема - оселок
+tconstruct:pattern:0, Схема - оперение
 tconstruct:shard:0, Сердце наги осколок
 tconstruct:shard:0, Магический лист осколок
 tconstruct:shard:0, Пламя осколок
@@ -8301,98 +8300,98 @@ tconstruct:seared_stairs_road:0, Сушёные ступеньки (дорога
 tconstruct:seared_stairs_tile:0, Сушёные ступеньки (мини-плитка)
 tconstruct:seared_stairs_creeper:0, Сушёные ступеньки (кладка-крипер)
 tconstruct:cast:0, Пустая отливка
-tconstruct:cast:0, Отливка - боёк молота
-tconstruct:cast:0, Отливка - отделка брони
-tconstruct:cast:0, Отливка - широкая карда
 tconstruct:cast:0, Отливка - Пластина
-tconstruct:cast:0, Отливка - навершие кирки
-tconstruct:cast:0, Отливка - Battery Cell
-tconstruct:cast:0, Отливка - табличка
-tconstruct:cast:0, Отливка - большая пластина
 tconstruct:cast:0, Отливка - осколок
-tconstruct:cast:0, Отливка - большое лезвие топора
-tconstruct:cast:0, Отливка - лезвие топора
-tconstruct:cast:0, Отливка - лезвие ножа
-tconstruct:cast:0, Отливка - Filigree
-tconstruct:cast:0, Отливка - лезвие меча
-tconstruct:cast:0, Отливка - ядро шлема
-tconstruct:cast:0, Отливка - навершие косы
-tconstruct:cast:0, Отливка - рукоять
 tconstruct:cast:0, Отливка - крепление
-tconstruct:cast:0, Отливка - поперечная гарда
-tconstruct:cast:0, Отливка - Rivets
-tconstruct:cast:0, Отливка - Clasp
-tconstruct:cast:0, Отливка - Pipe Piece
-tconstruct:cast:0, Отливка - ядро понож
-tconstruct:cast:0, Отливка - Kama Head
-tconstruct:cast:0, Отливка - мощная рукоять
-tconstruct:cast:0, Отливка - ядро нагрудника
-tconstruct:cast:0, Отливка - Chainmail
-tconstruct:cast:0, Отливка - широкое лезвие меча
-tconstruct:cast:0, Отливка - плечо лука
-tconstruct:cast:0, Отливка - древко стрелы
-tconstruct:cast:0, Отливка - Armor Plate
-tconstruct:cast:0, Отливка - Ring Shank
-tconstruct:cast:0, Отливка - оперение
-tconstruct:cast:0, Отливка - полотно сковороды
-tconstruct:cast:0, Отливка - оселок
+tconstruct:cast:0, Отливка - навершие косы
+tconstruct:cast:0, Отливка - лезвие меча
+tconstruct:cast:0, Отливка - лезвие ножа
 tconstruct:cast:0, Отливка - полотно лопаты
-tconstruct:cast:0, Отливка - Ring Setting
-tconstruct:cast:0, Отливка - ядро ботинок
-tconstruct:cast:0, Отливка - мощное крепление
+tconstruct:cast:0, Отливка - ядро понож
+tconstruct:cast:0, Отливка - наконечник
+tconstruct:cast:0, Отливка - Chainmail
+tconstruct:cast:0, Отливка - Ring Shank
+tconstruct:cast:0, Отливка - Battery Cell
+tconstruct:cast:0, Отливка - большая пластина
+tconstruct:cast:0, Отливка - мощная рукоять
 tconstruct:cast:0, Отливка - малая гарда
 tconstruct:cast:0, Отливка - большое полотно лопаты
-tconstruct:cast:0, Отливка - наконечник
+tconstruct:cast:0, Отливка - большое лезвие топора
+tconstruct:cast:0, Отливка - плечо лука
+tconstruct:cast:0, Отливка - отделка брони
+tconstruct:cast:0, Отливка - Rivets
+tconstruct:cast:0, Отливка - боёк молота
+tconstruct:cast:0, Отливка - Pipe Piece
+tconstruct:cast:0, Отливка - мощное крепление
+tconstruct:cast:0, Отливка - поперечная гарда
+tconstruct:cast:0, Отливка - полотно сковороды
 tconstruct:cast:0, Отливка - Набор для полировки
+tconstruct:cast:0, Отливка - рукоять
+tconstruct:cast:0, Отливка - широкая карда
+tconstruct:cast:0, Отливка - ядро ботинок
+tconstruct:cast:0, Отливка - древко стрелы
+tconstruct:cast:0, Отливка - широкое лезвие меча
+tconstruct:cast:0, Отливка - лезвие топора
+tconstruct:cast:0, Отливка - табличка
+tconstruct:cast:0, Отливка - Clasp
+tconstruct:cast:0, Отливка - Filigree
+tconstruct:cast:0, Отливка - Kama Head
+tconstruct:cast:0, Отливка - навершие кирки
+tconstruct:cast:0, Отливка - Ring Setting
+tconstruct:cast:0, Отливка - ядро нагрудника
+tconstruct:cast:0, Отливка - ядро шлема
+tconstruct:cast:0, Отливка - Armor Plate
+tconstruct:cast:0, Отливка - оселок
+tconstruct:cast:0, Отливка - оперение
 tconstruct:cast_custom:0, Отливка слитка
 tconstruct:cast_custom:1, Отливка самородка
 tconstruct:cast_custom:2, Отливка камня
 tconstruct:cast_custom:3, Отливка пластины
 tconstruct:cast_custom:4, Отливка шестерни
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Глиняная отливка - боёк молота
-tconstruct:clay_cast:0, Глиняная отливка - отделка брони
-tconstruct:clay_cast:0, Глиняная отливка - широкая карда
 tconstruct:clay_cast:0, Глиняная отливка - Пластина
-tconstruct:clay_cast:0, Глиняная отливка - навершие кирки
-tconstruct:clay_cast:0, Глиняная отливка - Battery Cell
-tconstruct:clay_cast:0, Глиняная отливка - табличка
-tconstruct:clay_cast:0, Глиняная отливка - большая пластина
 tconstruct:clay_cast:0, Глиняная отливка - осколок
-tconstruct:clay_cast:0, Глиняная отливка - большое лезвие топора
-tconstruct:clay_cast:0, Глиняная отливка - лезвие топора
-tconstruct:clay_cast:0, Глиняная отливка - лезвие ножа
-tconstruct:clay_cast:0, Глиняная отливка - Filigree
-tconstruct:clay_cast:0, Глиняная отливка - лезвие меча
-tconstruct:clay_cast:0, Глиняная отливка - ядро шлема
-tconstruct:clay_cast:0, Глиняная отливка - навершие косы
-tconstruct:clay_cast:0, Глиняная отливка - рукоять
 tconstruct:clay_cast:0, Глиняная отливка - крепление
-tconstruct:clay_cast:0, Глиняная отливка - поперечная гарда
-tconstruct:clay_cast:0, Глиняная отливка - Rivets
-tconstruct:clay_cast:0, Глиняная отливка - Clasp
-tconstruct:clay_cast:0, Глиняная отливка - Pipe Piece
-tconstruct:clay_cast:0, Глиняная отливка - ядро понож
-tconstruct:clay_cast:0, Глиняная отливка - Kama Head
-tconstruct:clay_cast:0, Глиняная отливка - мощная рукоять
-tconstruct:clay_cast:0, Глиняная отливка - ядро нагрудника
-tconstruct:clay_cast:0, Глиняная отливка - Chainmail
-tconstruct:clay_cast:0, Глиняная отливка - широкое лезвие меча
-tconstruct:clay_cast:0, Глиняная отливка - плечо лука
-tconstruct:clay_cast:0, Глиняная отливка - древко стрелы
-tconstruct:clay_cast:0, Глиняная отливка - Armor Plate
-tconstruct:clay_cast:0, Глиняная отливка - Ring Shank
-tconstruct:clay_cast:0, Глиняная отливка - оперение
-tconstruct:clay_cast:0, Глиняная отливка - полотно сковороды
-tconstruct:clay_cast:0, Глиняная отливка - оселок
+tconstruct:clay_cast:0, Глиняная отливка - навершие косы
+tconstruct:clay_cast:0, Глиняная отливка - лезвие меча
+tconstruct:clay_cast:0, Глиняная отливка - лезвие ножа
 tconstruct:clay_cast:0, Глиняная отливка - полотно лопаты
-tconstruct:clay_cast:0, Глиняная отливка - Ring Setting
-tconstruct:clay_cast:0, Глиняная отливка - ядро ботинок
-tconstruct:clay_cast:0, Глиняная отливка - мощное крепление
+tconstruct:clay_cast:0, Глиняная отливка - ядро понож
+tconstruct:clay_cast:0, Глиняная отливка - наконечник
+tconstruct:clay_cast:0, Глиняная отливка - Chainmail
+tconstruct:clay_cast:0, Глиняная отливка - Ring Shank
+tconstruct:clay_cast:0, Глиняная отливка - Battery Cell
+tconstruct:clay_cast:0, Глиняная отливка - большая пластина
+tconstruct:clay_cast:0, Глиняная отливка - мощная рукоять
 tconstruct:clay_cast:0, Глиняная отливка - малая гарда
 tconstruct:clay_cast:0, Глиняная отливка - большое полотно лопаты
-tconstruct:clay_cast:0, Глиняная отливка - наконечник
+tconstruct:clay_cast:0, Глиняная отливка - большое лезвие топора
+tconstruct:clay_cast:0, Глиняная отливка - плечо лука
+tconstruct:clay_cast:0, Глиняная отливка - отделка брони
+tconstruct:clay_cast:0, Глиняная отливка - Rivets
+tconstruct:clay_cast:0, Глиняная отливка - боёк молота
+tconstruct:clay_cast:0, Глиняная отливка - Pipe Piece
+tconstruct:clay_cast:0, Глиняная отливка - мощное крепление
+tconstruct:clay_cast:0, Глиняная отливка - поперечная гарда
+tconstruct:clay_cast:0, Глиняная отливка - полотно сковороды
 tconstruct:clay_cast:0, Глиняная отливка - Набор для полировки
+tconstruct:clay_cast:0, Глиняная отливка - рукоять
+tconstruct:clay_cast:0, Глиняная отливка - широкая карда
+tconstruct:clay_cast:0, Глиняная отливка - ядро ботинок
+tconstruct:clay_cast:0, Глиняная отливка - древко стрелы
+tconstruct:clay_cast:0, Глиняная отливка - широкое лезвие меча
+tconstruct:clay_cast:0, Глиняная отливка - лезвие топора
+tconstruct:clay_cast:0, Глиняная отливка - табличка
+tconstruct:clay_cast:0, Глиняная отливка - Clasp
+tconstruct:clay_cast:0, Глиняная отливка - Filigree
+tconstruct:clay_cast:0, Глиняная отливка - Kama Head
+tconstruct:clay_cast:0, Глиняная отливка - навершие кирки
+tconstruct:clay_cast:0, Глиняная отливка - Ring Setting
+tconstruct:clay_cast:0, Глиняная отливка - ядро нагрудника
+tconstruct:clay_cast:0, Глиняная отливка - ядро шлема
+tconstruct:clay_cast:0, Глиняная отливка - Armor Plate
+tconstruct:clay_cast:0, Глиняная отливка - оселок
+tconstruct:clay_cast:0, Глиняная отливка - оперение
 tconstruct:stone_torch:0, Каменный факел
 tconstruct:stone_ladder:0, Каменная лестница
 tconstruct:punji:0, Тростниковые колья
@@ -10968,7 +10967,7 @@ magicbees:propolis:2, Горящий прополис.name
 magicbees:propolis:3, Текучий прополис.name
 magicbees:propolis:4, Каменный прополис.name
 magicbees:propolis:5, Ordered Propolis
-magicbees:propolis:6, Entropic Propolis
+magicbees:propolis:6, Chaotic Propolis
 magicbees:wax:0, Магический воск.name
 magicbees:wax:1, Душевный воск.name
 magicbees:wax:2, Амнезийный воск.name
@@ -11005,16 +11004,13 @@ magicbees:mysteriousmagnet:18, Mysterious Magnet
 magicbees:moondial, Jade Moon Dial
 magicbees:manasteelgrafter, Manasteel Grafter
 magicbees:manasteelscoop, Manasteel Scoop
-magicbees:backpack_thaumaturge_t1, Thaumaturge's Backpack
-magicbees:backpack_thaumaturge_t2, Woven Thaumaturge's Backpack
-magicbees:jelly_babies, Handful of Jelly Babies
+magicbees:frames.temporal, Temporal Frame
+magicbees:frames.gentle, Gentle Frame
+magicbees:frames.oblivion, Oblivion Frame
 magicbees:frames.magic, Magic Frame
 magicbees:frames.necrotic, Necrotic Frame
-magicbees:frames.temporal, Temporal Frame
-magicbees:frames.metabolic, Metabolic Frame
-magicbees:frames.oblivion, Oblivion Frame
-magicbees:frames.gentle, Gentle Frame
 magicbees:frames.resilient, Resilient Frame
+magicbees:frames.metabolic, Metabolic Frame
 magicbees:hiveblock:0, Curious Hive
 magicbees:hiveblock:1, Unusual Hive
 magicbees:hiveblock:2, Resonating Hive
