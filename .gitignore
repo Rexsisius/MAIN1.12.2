@@ -1,9 +1,9 @@
 
-/saves
-/config
-/logs
-/launcher_profiles.json
-/logs/tlauncher
-/launcher_profiles
-/tlauncher_profiles.json
-/TlauncherProfiles.json
+saves
+config
+logs
+launcher_profiles.json
+logs/tlauncher
+launcher_profiles
+tlauncher_profiles.json
+TlauncherProfiles.json
