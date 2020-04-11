@@ -1,0 +1,801 @@
+[18:07:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:07:40] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:07:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:07:40] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[18:07:40] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[18:07:40] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_241
+[18:07:40] [main/DEBUG] [FML]: Java classpath at launch is:
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\jline\jline\3.5.1\jline-3.5.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\tlauncher\patchy\1.1\patchy-1.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\tlauncher\authlib\1.6.25\authlib-1.6.25.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\versions\ForgeOptiFine 1.12.2\ForgeOptiFine 1.12.2.jar
+[18:07:40] [main/DEBUG] [FML]: Java library path at launch is:
+[18:07:40] [main/DEBUG] [FML]:     D:\BILD\MAIN1.12.2\versions\ForgeOptiFine 1.12.2\natives
+[18:07:40] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: D:\BILD\MAIN1.12.2\libraries
+[18:07:40] [main/DEBUG] [FML]: Cleaning up mods folder: D:\BILD\MAIN1.12.2\mods
+[18:07:40] [main/DEBUG] [FML]: Examining file: OptiFine-1.12.2_HD_U_F4.jar
+[18:07:40] [main/DEBUG] [FML]: Examining file: tlskincape_1.12.2-1.4.jar
+[18:07:40] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[18:07:40] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[18:07:40] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[18:07:40] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[18:07:40] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[18:07:40] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[18:07:40] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[18:07:40] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[18:07:40] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[18:07:40] [main/DEBUG] [FML]: Discovering coremods
+[18:07:40] [main/INFO] [FML]: Searching D:\BILD\MAIN1.12.2\mods for mods
+[18:07:40] [main/DEBUG] [FML]:   Adding OptiFine-1.12.2_HD_U_F4.jar to the mod list
+[18:07:40] [main/DEBUG] [FML]:   Adding tlskincape_1.12.2-1.4.jar to the mod list
+[18:07:40] [main/DEBUG] [FML]: Examining for coremod candidacy OptiFine-1.12.2_HD_U_F4.jar
+[18:07:40] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine-1.12.2_HD_U_F4.jar
+[18:07:40] [main/DEBUG] [FML]: Examining for coremod candidacy tlskincape_1.12.2-1.4.jar
+[18:07:40] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in tlskincape_1.12.2-1.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:07:40] [main/DEBUG] [FML]: Instantiating coremod class TLSkinCapeHookLoader
+[18:07:41] [main/DEBUG] [FML]: The coremod org.tlauncher.skin.cape.asm.TLSkinCapeHookLoader requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[18:07:41] [main/DEBUG] [FML]: Found signing certificates for coremod TLSkinCapeHookLoader (org.tlauncher.skin.cape.asm.TLSkinCapeHookLoader)
+[18:07:41] [main/DEBUG] [FML]: Found certificate f995bb27b7549959b182c7f8e7a70557a343a764
+[18:07:41] [main/DEBUG] [FML]: Found certificate b9657395c3caf21a0fa8721e144b70e03600106e
+[18:07:41] [main/DEBUG] [FML]: Found certificate 8782c6c304353bcfd29692d2593e7d44d934ff11
+[18:07:41] [main/DEBUG] [FML]: Enqueued coremod TLSkinCapeHookLoader
+[18:07:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:07:41] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[18:07:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:07:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:07:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:07:41] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[18:07:41] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[18:07:41] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[18:07:41] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[18:07:41] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: D:\BILD\MAIN1.12.2\mods\OptiFine-1.12.2_HD_U_F4.jar
+[18:07:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:07:41] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[18:07:41] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[18:07:41] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[18:07:41] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[18:07:41] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[18:07:41] [main/DEBUG] [FML]: Injection complete
+[18:07:41] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[18:07:41] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[18:07:42] [main/DEBUG] [FML]: Read 1145 binary patches
+[18:07:43] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36083 records
+[18:07:45] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[18:07:45] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[18:07:45] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[18:07:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:07:45] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[18:07:45] [main/DEBUG] [FML]: Injection complete
+[18:07:45] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[18:07:45] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[18:07:45] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[18:07:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:07:45] [main/DEBUG] [FML]: Injecting coremod TLSkinCapeHookLoader \{org.tlauncher.skin.cape.asm.TLSkinCapeHookLoader\} class transformers
+[18:07:45] [main/TRACE] [FML]: Registering transformer gloomyfolken.hooklib.minecraft.PrimaryClassTransformer
+[18:07:45] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container gloomyfolken.hooklib.minecraft.SecondaryTransformerHook
+[18:07:45] [main/INFO] [FML]: [HOOKLIB]  Obfuscated: true
+[18:07:45] [main/DEBUG] [FML]: Injection complete
+[18:07:45] [main/DEBUG] [FML]: Running coremod plugin for TLSkinCapeHookLoader \{org.tlauncher.skin.cape.asm.TLSkinCapeHookLoader\}
+[18:07:45] [main/DEBUG] [FML]: Running coremod plugin TLSkinCapeHookLoader
+[18:07:45] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container org.tlauncher.skin.cape.asm.TLSkinCapeHooks
+[18:07:45] [main/DEBUG] [FML]: Coremod plugin class TLSkinCapeHookLoader run successfully
+[18:07:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:07:45] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[18:07:45] [main/DEBUG] [FML]: Validating minecraft
+[18:07:45] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraftforge.fml.common.Loader
+[18:07:45] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraftforge.fml.common.Loader#injectData([Ljava/lang/Object;)
+[18:07:45] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Methods dictionary loaded in 9 ms
+[18:07:46] [main/DEBUG] [FML]: Minecraft validated, launching...
+[18:07:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:07:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:07:46] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[18:07:46] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:07:47] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.client.entity.AbstractClientPlayer
+[18:07:47] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationSkin()Lnet/minecraft/util/ResourceLocation;
+[18:07:47] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationCape()Lnet/minecraft/util/ResourceLocation;
+[18:07:47] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getSkinType()
+[18:07:47] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.entity.player.EntityPlayer
+[18:07:47] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.entity.player.EntityPlayer#isWearing(Lnet/minecraft/entity/player/EnumPlayerModelParts;)
+[18:07:48] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: 32
+[18:07:55] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshot
+[18:07:55] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot created
+[18:07:55] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Forge ***
+[18:07:55] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[18:07:57] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Vanilla ***
+[18:07:57] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] 
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_F4
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] Build: 20191023-234904
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_241, Oracle Corporation
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] OpenGL: GeForce GT 1030/PCIe/SSE2, version 4.6.0 NVIDIA 445.75, NVIDIA Corporation
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[18:07:58] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 32768x32768
+[18:07:58] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+[18:07:59] [VersionCheck/INFO] [Config]: [OptiFine] Version found: D3
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 445.75
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  NVIDIA Corporation
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: GeForce GT 1030/PCIe/SSE2
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Save shaders configuration.
+[18:07:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] No shaderpack loaded.
+[18:07:59] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[18:07:59] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[18:07:59] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[18:07:59] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.001s
+[18:07:59] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F4, enabling compatibility features
+[18:07:59] [Client thread/INFO] [FML]: Could not load splash.properties, will create a default one
+[18:07:59] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 139818152 bytes (133 MB) / 264818688 bytes (252 MB) up to 7158890496 bytes (6827 MB)
+	JVM Flags: 3 total; -Xmn128M -Xmx6840M -XX:+UseConcMarkSweepGC
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+TLSkinCapeHookLoader (tlskincape_1.12.2-1.4.jar)
+  gloomyfolken.hooklib.minecraft.PrimaryClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 445.75' Renderer: 'GeForce GT 1030/PCIe/SSE2'
+[18:07:59] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[18:07:59] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:08:00] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:08:00] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:08:00] [Client thread/DEBUG] [FML]: File D:\BILD\MAIN1.12.2\config\injectedDependencies.json not found. No dependencies injected
+[18:08:00] [Client thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[18:08:00] [Client thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[18:08:00] [Client thread/DEBUG] [FML]: Found a minecraft related file at D:\BILD\MAIN1.12.2\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847.jar, examining for mod candidates
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\jline\jline\3.5.1\jline-3.5.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[18:08:00] [Client thread/DEBUG] [FML]: Found a minecraft related file at D:\BILD\MAIN1.12.2\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar, examining for mod candidates
+[18:08:00] [Client thread/DEBUG] [FML]: Found a minecraft related file at D:\BILD\MAIN1.12.2\libraries\org\tlauncher\patchy\1.1\patchy-1.1.jar, examining for mod candidates
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\tlauncher\authlib\1.6.25\authlib-1.6.25.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[18:08:00] [Client thread/DEBUG] [FML]: Found a minecraft related file at D:\BILD\MAIN1.12.2\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar, examining for mod candidates
+[18:08:00] [Client thread/DEBUG] [FML]: Found a minecraft related file at D:\BILD\MAIN1.12.2\versions\ForgeOptiFine 1.12.2\ForgeOptiFine 1.12.2.jar, examining for mod candidates
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\mods\OptiFine-1.12.2_HD_U_F4.jar
+[18:08:00] [Client thread/TRACE] [FML]: Skipping known library file D:\BILD\MAIN1.12.2\mods\tlskincape_1.12.2-1.4.jar
+[18:08:00] [Client thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[18:08:00] [Client thread/INFO] [FML]: Searching D:\BILD\MAIN1.12.2\mods for mods
+[18:08:00] [Client thread/DEBUG] [FML]:   Adding OptiFine-1.12.2_HD_U_F4.jar to the mod list
+[18:08:00] [Client thread/DEBUG] [FML]:   Adding tlskincape_1.12.2-1.4.jar to the mod list
+[18:08:00] [Client thread/TRACE] [FML]: Skipping already parsed coremod or tweaker OptiFine-1.12.2_HD_U_F4.jar
+[18:08:00] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file tlskincape_1.12.2-1.4.jar
+[18:08:00] [Client thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2847.jar for potential mods
+[18:08:00] [Client thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2847.jar appears to be missing an mcmod.info file
+[18:08:00] [Client thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential mods
+[18:08:00] [Client thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info file
+[18:08:00] [Client thread/DEBUG] [FML]: Examining file patchy-1.1.jar for potential mods
+[18:08:00] [Client thread/DEBUG] [FML]: The mod container patchy-1.1.jar appears to be missing an mcmod.info file
+[18:08:00] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential mods
+[18:08:00] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[18:08:00] [Client thread/DEBUG] [FML]: Examining file ForgeOptiFine 1.12.2.jar for potential mods
+[18:08:00] [Client thread/DEBUG] [FML]: The mod container ForgeOptiFine 1.12.2.jar appears to be missing an mcmod.info file
+[18:08:01] [Client thread/DEBUG] [FML]: Examining file tlskincape_1.12.2-1.4.jar for potential mods
+[18:08:01] [Client thread/TRACE] [FML]: Located mcmod.info file in file tlskincape_1.12.2-1.4.jar
+[18:08:01] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (org.tlauncher.skin.cape.TLSkinCape) - loading
+[18:08:01] [Client thread/TRACE] [FML]: Parsed dependency info for tlauncher_custom_cape_skin: Requirements: [] After:[] Before:[]
+[18:08:01] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[18:08:01] [Client thread/TRACE] [FML]: Received a system property request ''
+[18:08:01] [Client thread/TRACE] [FML]: System property request managing the state of 0 mods
+[18:08:01] [Client thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[18:08:01] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[18:08:01] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[18:08:01] [Client thread/DEBUG] [FML]: Enabling mod tlauncher_custom_cape_skin
+[18:08:01] [Client thread/DEBUG] [FML]: Mod TLSkinCape is missing a pack.mcmeta file, substituting a dummy one
+[18:08:01] [Client thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[18:08:01] [Client thread/TRACE] [FML]: All mod requirements are satisfied
+[18:08:01] [Client thread/TRACE] [FML]: Sorting mods into an ordered list
+[18:08:01] [Client thread/TRACE] [FML]: Mod sorting completed successfully
+[18:08:01] [Client thread/DEBUG] [FML]: Mod sorting data
+[18:08:01] [Client thread/DEBUG] [FML]: 	tlauncher_custom_cape_skin(TLSkinCape:1.4): tlskincape_1.12.2-1.4.jar ()
+[18:08:01] [Client thread/DEBUG] [FML]: Loading @Config anotation data
+[18:08:01] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[18:08:01] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[18:08:01] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.029s
+[18:08:01] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[18:08:01] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[18:08:01] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.000s
+[18:08:01] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[18:08:01] [Client thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[18:08:01] [Client thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[18:08:01] [Client thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[18:08:01] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tlauncher_custom_cape_skin] at CLIENT
+[18:08:01] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tlauncher_custom_cape_skin] at SERVER
+[18:08:02] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.370s
+[18:08:02] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[18:08:02] [Client thread/DEBUG] [forge]: Loading Vanilla annotations: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@7db373b2
+[18:08:02] [Client thread/DEBUG] [forge]: Preloading CrashReport Classes
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$5
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[18:08:02] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[18:08:02] [Client thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[18:08:02] [Client thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[18:08:02] [Client thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2847)
+[18:08:02] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[18:08:02] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.134s
+[18:08:02] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod tlauncher_custom_cape_skin
+[18:08:02] [Client thread/TRACE] [FML]: Mod tlauncher_custom_cape_skin is using network checker : Accepting version 1.4
+[18:08:02] [Client thread/TRACE] [FML]: Testing mod tlauncher_custom_cape_skin to verify it accepts its own version in a remote connection
+[18:08:02] [Client thread/TRACE] [FML]: The mod tlauncher_custom_cape_skin accepts its own version (1.4)
+[18:08:02] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into tlauncher_custom_cape_skin
+[18:08:02] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for tlauncher_custom_cape_skin
+[18:08:02] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into tlauncher_custom_cape_skin for type INSTANCE
+[18:08:02] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod tlauncher_custom_cape_skin
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: Construction - TLSkinCape took 0.024s
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Finished: Construction took 0.557s
+[18:08:02] [Client thread/DEBUG] [FML]: Mod signature data
+[18:08:02] [Client thread/DEBUG] [FML]:  	Valid Signatures:
+[18:08:02] [Client thread/DEBUG] [FML]:  	Missing Signatures:
+[18:08:02] [Client thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[18:08:02] [Client thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[18:08:02] [Client thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2847.jar
+[18:08:02] [Client thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2847)	forge-1.12.2-14.23.5.2847.jar
+[18:08:02] [Client thread/DEBUG] [FML]: 		tlauncher_custom_cape_skin	(TLSkinCape	1.4)	tlskincape_1.12.2-1.4.jar
+[18:08:02] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TLSkinCape
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.004s
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.003s
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.002s
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:TLSkinCape took 0.000s
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Finished: Reloading - LanguageManager took 0.086s
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.087s
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resources took 0.096s
+[18:08:02] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[18:08:02] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[18:08:02] [Client thread/DEBUG] [FML]: Mod TLSkinCape is missing a pack.mcmeta file, substituting a dummy one
+[18:08:02] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:08:02] [Client thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[18:08:02] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:08:02] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:08:02] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[18:08:02] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.000s
+[18:08:02] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[18:08:02] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[18:08:02] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[18:08:02] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[18:08:02] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[18:08:02] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:08:02] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.060s
+[18:08:02] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod tlauncher_custom_cape_skin
+[18:08:02] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod tlauncher_custom_cape_skin
+[18:08:02] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - TLSkinCape took 0.001s
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Finished: PreInitialization took 0.062s
+[18:08:02] [Client thread/INFO] [FML]: Applying holder lookups
+[18:08:02] [Client thread/INFO] [FML]: Holder lookups applied
+[18:08:02] [Client thread/INFO] [FML]: Applying holder lookups
+[18:08:02] [Client thread/INFO] [FML]: Holder lookups applied
+[18:08:02] [Client thread/INFO] [FML]: Applying holder lookups
+[18:08:02] [Client thread/INFO] [FML]: Holder lookups applied
+[18:08:02] [Client thread/INFO] [FML]: Applying holder lookups
+[18:08:02] [Client thread/INFO] [FML]: Holder lookups applied
+[18:08:02] [Client thread/INFO] [FML]: Injecting itemstacks
+[18:08:02] [Client thread/INFO] [FML]: Itemstack injection complete
+[18:08:02] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+[18:08:02] [Client thread/INFO] [Config]: [OptiFine] Resource packs: Default
+[18:08:02] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - TextureManager took 0.003s
+[18:08:02] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2847",
+    "1.12.2-recommended": "14.23.5.2768",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.3",
+    "1.14.4-recommended": "28.2.0",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.1.39",
+    "1.15.2-recommended": "31.1.0",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343"
+  }
+}
+[18:08:02] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading sounds took 0.386s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - SoundHandler took 0.400s
+[18:08:03] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.011s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.008s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - GL Setup took 0.002s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Texture Map took 0.004s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[18:08:03] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:08:03] [Thread-5/ERROR] [net.minecraft.client.audio.SoundManager]: Error in class 'LibraryLWJGLOpenAL'
+[18:08:03] [Thread-5/ERROR] [net.minecraft.client.audio.SoundManager]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[18:08:03] [Thread-5/WARN] [net.minecraft.client.audio.SoundManager]: ERROR MESSAGE:
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Could not locate OpenAL library.
+[18:08:03] [Thread-5/WARN] [net.minecraft.client.audio.SoundManager]: STACK TRACE:
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:156)
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:102)
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: org.lwjgl.openal.AL.create(AL.java:206)
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[18:08:03] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: paulscode.sound.CommandThread.run(CommandThread.java:121)
+[18:08:03] [Sound Library Loader/WARN] [net.minecraft.client.audio.SoundManager]: ERROR MESSAGE:
+[18:08:03] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Could not locate OpenAL library.
+[18:08:03] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[18:08:04] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: Switching to No Sound
+[18:08:04] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: (Silent Mode)
+[18:08:04] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[18:08:04] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: blocks took 1.343s
+[18:08:05] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: items took 0.503s
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] Mipmap levels: 4
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] Multitexture: false
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] Multipass connected textures: false
+[18:08:05] [Client thread/INFO] [Config]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18:08:07] [Thread-3/INFO] [FML]: Using alternative sync timing : 200 frames of Display.update took 6465666800 nanos
+[18:08:08] [Client thread/INFO] [Config]: [OptiFine] Custom loader sprites: 3
+[18:08:08] [Client thread/INFO] [Config]: [OptiFine] Sprite dependencies: 5
+[18:08:08] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[18:08:08] [Client thread/INFO] [Config]: [OptiFine] Animated sprites: 22
+[18:08:08] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: baking took 0.537s
+[18:08:08] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelManager took 5.727s
+[18:08:08] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Model Manager took 5.754s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - RenderItem took 0.008s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Item Renderer took 0.234s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - SearchTreeManager took 0.157s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.514s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Finished: Rendering Setup took 6.509s
+[18:08:09] [Client thread/INFO] [FML]: Applying holder lookups
+[18:08:09] [Client thread/INFO] [FML]: Holder lookups applied
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod tlauncher_custom_cape_skin
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod tlauncher_custom_cape_skin
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: Initialization - TLSkinCape took 0.000s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Finished: Initialization took 0.001s
+[18:08:09] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft
+[18:08:09] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod minecraft
+[18:08:09] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod minecraft
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.004s
+[18:08:09] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp
+[18:08:09] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod mcp
+[18:08:09] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod mcp
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML
+[18:08:09] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod FML
+[18:08:09] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod FML
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge
+[18:08:09] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod forge
+[18:08:09] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod forge
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod tlauncher_custom_cape_skin
+[18:08:09] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod tlauncher_custom_cape_skin
+[18:08:09] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod tlauncher_custom_cape_skin
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - TLSkinCape took 0.000s
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.005s
+[18:08:09] [Client thread/INFO] [FML]: Injecting itemstacks
+[18:08:09] [Client thread/INFO] [FML]: Itemstack injection complete
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge
+[18:08:09] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge
+[18:08:09] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.014s
+[18:08:09] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod tlauncher_custom_cape_skin
+[18:08:10] [Client thread/DEBUG] [org.tlauncher.skin.cape.util.PreparedProfileManager]: middle time to prepare frame of the cape is 35, performance 2
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod tlauncher_custom_cape_skin
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - TLSkinCape took 0.388s
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.403s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.002s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge
+[18:08:10] [Client thread/DEBUG] [FML]: Forge RecipeSorter Baking:
+[18:08:10] [Client thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
+[18:08:10] [Client thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[18:08:10] [Client thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[18:08:10] [Client thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[18:08:10] [Client thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[18:08:10] [Client thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
+[18:08:10] [Client thread/DEBUG] [FML]: Sorting recipes
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.008s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod tlauncher_custom_cape_skin
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod tlauncher_custom_cape_skin
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - TLSkinCape took 0.000s
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.011s
+[18:08:10] [Client thread/DEBUG] [FML]: Freezing registries
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.184s
+[18:08:10] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod tlauncher_custom_cape_skin
+[18:08:10] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod tlauncher_custom_cape_skin
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - TLSkinCape took 0.001s
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.186s
+[18:08:10] [Client thread/DEBUG] [FML]: All registries frozen
+[18:08:10] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[18:08:10] [pool-4-thread-1/DEBUG] [org.tlauncher.skin.cape.util.PreparedProfileManager]: finished downloading data 32
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Finished: Loading took 10.203s
+[18:08:10] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[18:08:10] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - CloudRenderer took 0.006s
+[18:08:10] [Client thread/INFO] [Config]: [OptiFine] *** Reloading custom textures ***
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: tail
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: saddle
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: mouth
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: left_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: right_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: left_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: right_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: left_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: right_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: headpiece
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: donkey, name: noseband
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: evocation_illager, name: hat
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: tail
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: saddle
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: mouth
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: left_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: right_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: left_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: right_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: left_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: right_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: headpiece
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: horse, name: noseband
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: tail
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: saddle
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: mouth
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: left_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: right_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: left_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: right_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: left_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: right_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: headpiece
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: mule, name: noseband
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: tail
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: saddle
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: mouth
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: left_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: right_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: left_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: right_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: left_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: right_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: headpiece
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: zombie_horse, name: noseband
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: villager, name: headwear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: villager, name: headwear2
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: villager, name: bodywear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: vindication_illager, name: hat
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: tail
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: saddle
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: mouth
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: left_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: right_ear
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: left_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: right_bit
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: left_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: right_rein
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: headpiece
+[18:08:11] [Client thread/WARN] [Config]: [OptiFine] Model renderer not found, model: skeleton_horse, name: noseband
+[18:08:11] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - TextureUtils$1 took 0.227s
+[18:08:12] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[18:08:58] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[18:08:58] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[18:08:59] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

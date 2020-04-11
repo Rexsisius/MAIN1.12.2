@@ -1,0 +1,78 @@
+2020-04-08 17:26:16,479 main [Loading] INITIALIZING
+Starting TLauncher 2.69 RELEASE
+For more information, visit https://tlauncher.org/
+Startup time: 08.04.2020 17:26:15
+---
+run double running protectin
+[Loading] LOADING_CONFIGURATION
+Loading configuration from file: C:\Users\Fruksus\AppData\Roaming\.tlauncher\tlauncher-2.0.properties
+[Configuration] Constant values: {}
+Machine info: -------------------------------------------------------
+Windows 10 10.0, Java 1.8.0_241, jvm bit x64, 16336 MB RAM
+java path=C:\Program Files\Java\jre1.8.0_241\bin\javaw.exe
+Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+ NVIDIA GeForce GT 1030, GeForce GT 1030, 10150 MB, spacedesk Graphics Adapter, Unknown, 8168 MB
+-------------------------------------------------------
+Selected locale: ru_RU
+[Loading] LOADING_CONSOLE
+[Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+
+
+2020-04-08 17:26:16,480 main [Downloader2] Loaded configuration: good
+2020-04-08 17:26:16,613 ExtendedThread#4 [Updater] Requesting an update...
+2020-04-08 17:26:16,617 ExtendedThread#4 [Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2020-04-08 17:26:16,618 ExtendedThread#4 [Updater] Making request: http://repo.tlauncher.org/update/lch/update_2.0.json?version=2.69&client=dc242789-ec95-40cc-aa3b-9202199e3f32
+2020-04-08 17:26:16,706 ExtendedThread#4 [Updater] Request time: 89 ms
+2020-04-08 17:26:16,706 ExtendedThread#4 [Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2020-04-08 17:26:16,922 main [Browser] Loading resources...
+2020-04-08 17:26:17,065 main [Browser] Loading background...
+2020-04-08 17:26:17,120 main [Browser] Cleaning up after loading:
+2020-04-08 17:26:17,120 main Starting garbage collector: 67 / 146 MB
+2020-04-08 17:26:17,210 main Garbage collector completed: 13 / 146 MB
+2020-04-08 17:26:17,213 main [Loading] LOADING_MANAGERS
+2020-04-08 17:26:17,222 main [LocalVersionList] Base directory: D:\BILD\MAIN1.12.2
+2020-04-08 17:26:17,241 main [ProfileManager] Refreshing profiles from: D:\BILD\MAIN1.12.2\TlauncherProfiles.json
+2020-04-08 17:26:17,249 main [AdvertisingStatusObserver]  started to get ad information
+2020-04-08 17:26:17,250 ExtendedThread#4 [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.6.json
+2020-04-08 17:26:17,250 main [AdvertisingStatusObserver]  finished to get add information
+2020-04-08 17:26:17,253 main [Loading] LOADING_WINDOW
+2020-04-08 17:26:17,536 ExtendedThread#6 [REPO][SERVER_LIST_REPO] Success: Reached the repo in 163 ms.
+2020-04-08 17:26:17,585 JavaFX Application Thread [JFXStartPageLoader]  start load page: http://page.tlauncher.org/update/downloads/configs/client/index.html
+2020-04-08 17:26:17,592 JavaFX Application Thread [Browser] Running in JavaFX Thread
+2020-04-08 17:26:17,592 JavaFX Application Thread [Browser] Preparing JavaFX...
+2020-04-08 17:26:17,678 main [Loading] PREPARING_MAINPANE
+2020-04-08 17:26:17,686 JavaFX Application Thread [Browser] Initializing...
+2020-04-08 17:26:18,653 main [Downloader2] Loaded configuration: good
+2020-04-08 17:26:19,380 JavaFX Application Thread [JFXStartPageLoader]  succeeded load page: http://page.tlauncher.org/update/downloads/configs/client/index.html during 1
+2020-04-08 17:26:19,381 JavaFX Application Thread [Browser@931976367] Loaded successfully: "http://page.tlauncher.org/update/downloads/configs/client/index.html"
+2020-04-08 17:26:19,481 JavaFX Application Thread [Browser] add listens into server_choose
+2020-04-08 17:26:19,482 JavaFX Application Thread [Browser] finished listens into server_choose
+2020-04-08 17:26:20,641 main [Loading] POSTINIT_GUI
+2020-04-08 17:26:20,641 main [Frame] Packing main frame...
+2020-04-08 17:26:20,801 main [Frame] Resizing main pane...
+2020-04-08 17:26:20,802 main Updater is already closed. Showing up...
+2020-04-08 17:26:20,802 main Visibility set.
+2020-04-08 17:26:20,803 main [Loading] REFRESHING_INFO
+2020-04-08 17:26:20,807 ExtendedThread#6 [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+2020-04-08 17:26:20,808 main Started! (5010 ms.)
+2020-04-08 17:26:20,809 main [Loading] SUCCESS
+2020-04-08 17:26:20,810 ExtendedThread#4 [VersionManager] Refreshing versions remotely...
+2020-04-08 17:26:20,863 ExtendedThread#6 [REPO][EXTRA_VERSION_REPO] Success: Reached the repo in 56 ms.
+2020-04-08 17:26:20,924 main [TLauncher] show tlauncher!!!
+2020-04-08 17:26:20,924 main [Double running] clear time label
+2020-04-08 17:26:21,036 AsyncObject#12 [REPO][OFFICIAL_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: https://launchermeta.mojang.com/mc/game/
+2020-04-08 17:26:21,042 AsyncObject#13 [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+2020-04-08 17:26:21,045 AsyncObject#14 [REPO][SKIN_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/skin/versions/
+2020-04-08 17:26:21,090 AsyncObject#13 [REPO][EXTRA_VERSION_REPO] Success: Reached the repo in 47 ms.
+2020-04-08 17:26:21,117 AsyncObject#14 [REPO][SKIN_VERSION_REPO] Success: Reached the repo in 68 ms.
+2020-04-08 17:26:21,130 AsyncObject#14 [SkinVersionList] Got in 85 ms
+2020-04-08 17:26:21,141 AsyncObject#13 [ExtraVersionList] Got in 99 ms
+2020-04-08 17:26:21,646 AsyncObject#12 [REPO][OFFICIAL_VERSION_REPO] Success: Reached the repo in 605 ms.
+2020-04-08 17:26:21,842 AsyncObject#12 [OfficialVersionList] Got in 806 ms
+2020-04-08 17:26:21,845 ExtendedThread#4 [VersionManager] Versions has been refreshed (906 ms)
+2020-04-08 17:26:21,992 ExtendedThread#6 [REPO][ADD_HOT_SERVERS_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/lch/additional_hot_servers-1.0.json
+2020-04-08 17:26:21,997 ExtendedThread#15 [REPO][HOT_SERVERS_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/lch/servers/hot_servers-1.0.json
+2020-04-08 17:26:22,023 ExtendedThread#6 [REPO][ADD_HOT_SERVERS_REPO] Success: Reached the repo in 26 ms.
+2020-04-08 17:26:22,032 Thread-13 run server on  37842
+2020-04-08 17:26:22,039 ExtendedThread#15 [REPO][HOT_SERVERS_REPO] Success: Reached the repo in 38 ms.
+2020-04-08 17:43:46,606 AWT-EventQueue-0 Good bye!

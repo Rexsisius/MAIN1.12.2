@@ -1,0 +1,113 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 2020-04-07 20:51:52 YEKT
+Description: Exception in server tick loop
+
+Missing Mods:
+    unknown : need [4.14.1.234,): have 4.10.0.198
+    unknown : need [14.23.5.2847,): have 14.23.5.2838
+
+Missing Mods:
+    unknown : need [14.23.5.2847,): have 14.23.5.2838
+    unknown : need [4.14.1.234,): have 4.10.0.198
+
+Missing Mods:
+    unknown : need [4.14.1.234,): have 4.10.0.198
+    unknown : need [14.23.5.2847,): have 14.23.5.2838
+
+Missing Mods:
+    unknown : need [14.23.5.2847,): have 14.23.5.2838
+    unknown : need [4.14.1.234,): have 4.10.0.198
+
+Missing Mods:
+    unknown : need [14.23.5.2847,): have 14.23.5.2838
+
+Missing Mods:
+    unknown : need [14.23.5.2847,): have 14.23.5.2838
+
+Missing Mods:
+    unknown : need [14.23.5.2847,): have 14.23.5.2838
+
+Missing Mods:
+    unknown : need [4.14.1.234,): have 4.10.0.198
+    unknown : need [14.23.5.2847,): have 14.23.5.2838
+
+net.minecraftforge.fml.common.MultipleModsErrored
+    at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:298)
+    at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570)
+    at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+    at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+    at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:125)
+    at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+    at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_241, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 238112856 bytes (227 MB) / 536870912 bytes (512 MB) up to 7147094016 bytes (6816 MB)
+  JVM Flags: 8 total; -Xms500M -Xmx6800M -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2838 40 mods loaded, 40 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State | ID                                | Version       | Source                                  | Signature                                |
+       |:----- |:--------------------------------- |:------------- |:--------------------------------------- |:---------------------------------------- |
+       | L     | minecraft                         | 1.12.2        | minecraft.jar                           | None                                     |
+       | L     | mcp                               | 9.42          | minecraft.jar                           | None                                     |
+       | L     | FML                               | 8.0.99.99     | forge-1.12.2-14.23.5.2838-universal.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | L     | forge                             | 14.23.5.2838  | forge-1.12.2-14.23.5.2838-universal.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | L     | foamfixcore                       | 7.7.4         | minecraft.jar                           | None                                     |
+       | L     | aiimprovements                    | 0.0.1.3       | AIImprovements-1.12-0.0.1b3.jar         | None                                     |
+       | L     | appliedenergistics2               | rv6-stable-7  | appliedenergistics2-rv6-stable-7.jar    | None                                     |
+       | L     | baubles                           | 1.5.2         | Baubles-1.12-1.5.2.jar                  | None                                     |
+       | L     | buildcraftcompat                  | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | buildcraftbuilders                | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | buildcraftcore                    | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | buildcraftenergy                  | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | buildcraftfactory                 | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | buildcraftlib                     | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | buildcraftrobotics                | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | buildcraftsilicon                 | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | buildcrafttransport               | 7.99.24.6     | buildcraft-all-7.99.24.6.jar            | None                                     |
+       | L     | endercore                         | 1.12.2-0.5.73 | EnderCore-1.12.2-0.5.73.jar             | None                                     |
+       | L     | enderio                           | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderiobase                       | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderioconduitsappliedenergistics | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderioconduitsopencomputers      | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderioconduitsrefinedstorage     | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderioconduits                   | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderiointegrationforestry        | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderiointegrationtic             | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderiointegrationticlate         | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderiomachines                   | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | enderiopowertools                 | 5.1.55        | EnderIO-1.12.2-5.1.55.jar               | None                                     |
+       | L     | foamfix                           | 0.10.8-1.12.2 | foamfix-0.10.8-1.12.2.jar               | None                                     |
+       | L     | waila                             | 1.8.26        | Hwyla-1.8.26-B41_1.12.2.jar             | None                                     |
+       | L     | jei                               | 4.10.0.198    | jei_1.12.2-4.10.0.198.jar               | None                                     |
+       | L     | performant                        | 1.12.2-1.4    | performant-1.12.2-1.9.jar               | None                                     |
+       | L     | thaumcraft                        | 6.1.BETA26    | Thaumcraft-1.12.2-6.1.BETA26.jar        | None                                     |
+       | L     | thaumicenergistics                | 2.2.3         | thaumicenergistics-2.2.4.jar            | None                                     |
+       | L     | thaumicterminal                   | 1.0.12        | ThaumicTerminal-1.0.12.jar              | None                                     |
+       | L     | teamlapen-lib                     | 1.6.2         | Vampirism-1.12.2-1.6.2.jar              | None                                     |
+       | L     | vampirism                         | 1.6.2         | Vampirism-1.12.2-1.6.2.jar              | None                                     |
+       | L     | vanillafix                        | 1.0.10-150    | VanillaFix-1.0.10-150.jar               | None                                     |
+       | L     | wawla                             | 2.6.275       | Wawla-1.12.2-2.6.275.jar                | None                                     |
+  Loaded coremods (and transformers): Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.8-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-150.jar)
+                                        
+                                      EnderCorePlugin (EnderCore-1.12.2-0.5.73-core.jar)
+                                        com.enderio.core.common.transform.EnderCoreTransformer
+                                        com.enderio.core.common.transform.SimpleMixinPatcher
+                                      PerformantLoadingPlugin (performant-1.12.2-1.9.jar)
+  Suspected Mods: Unknown
+  Profiler Position: N/A (disabled)
+  Is Modded: Definitely; Server brand changed to 'fml,forge'
+  Type: Dedicated Server (map_server.txt)
