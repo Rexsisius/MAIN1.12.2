@@ -89,5 +89,6 @@
   "crumbling",
   "petramor",
   "mundane1_armor",
-  "duritos_ranch_armor"
+  "duritos_ranch_armor",
+  "thermalinversion"
 ]

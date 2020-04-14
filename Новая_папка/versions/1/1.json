@@ -2207,23 +2207,6 @@
           "populateStatus": false
         },
         {
-          "stateGameElement": "no_active",
-          "id": -17118482126100,
-          "name": "betterhud-1.12.2-1.0.0",
-          "version": {
-            "id": -17118483145600,
-            "name": "1.0",
-            "metadata": {
-              "sha1": "e840dd7cc6a19cd7046d7d5bae720354535ee3bf",
-              "size": 164010,
-              "path": "mods/betterhud-1.12.2-1.0.0.jar",
-              "url": "mods/betterhud-1.12.2-1.0.0.jar"
-            }
-          },
-          "userInstall": true,
-          "populateStatus": false
-        },
-        {
           "stateGameElement": "active",
           "id": 231951,
           "name": "Immersive Engineering",
@@ -2406,6 +2389,23 @@
               "dependencyType": "required"
             }
           ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": -18250567766000,
+          "name": "ImmersiveEngineering-core-0.12-92",
+          "version": {
+            "id": -18250568416600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3aee21f347d12da5ab9f916db3698726d20d574b",
+              "size": 7636,
+              "path": "mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-92/ImmersiveEngineering-core-0.12-92.jar",
+              "url": "mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-92/ImmersiveEngineering-core-0.12-92.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
         }
       ],
       "resourcePacks": [

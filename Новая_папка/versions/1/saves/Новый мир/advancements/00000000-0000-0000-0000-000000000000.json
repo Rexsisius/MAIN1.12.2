@@ -1,14 +1,56 @@
 {
-  "vampirism:main/vampire_forest": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "main": "2020-04-14 16:53:04 +0500"
+      "entered_water": "2020-04-14 18:39:38 +0500"
+    },
+    "done": true
+  },
+  "divinerpg:root": {
+    "criteria": {
+      "divinerpg": "2020-04-14 18:38:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2020-04-14 18:39:38 +0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-04-14 18:39:40 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2020-04-14 18:39:38 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2020-04-14 18:39:38 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2020-04-14 18:39:38 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2020-04-14 18:39:38 +0500"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "plains": "2020-04-14 16:51:36 +0500",
-      "river": "2020-04-14 16:52:49 +0500"
+      "beaches": "2020-04-14 18:39:08 +0500",
+      "river": "2020-04-14 18:39:39 +0500"
     },
     "done": false
   }
