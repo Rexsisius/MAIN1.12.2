@@ -9,7 +9,7 @@
   "minimumLauncherVersion": 14,
   "tlauncherVersion": 8,
   "assets": "1.12",
-  "source": "skin_version_repo",
+  "source": "local_version_repo",
   "skinVersion": true,
   "libraries": [
     {
