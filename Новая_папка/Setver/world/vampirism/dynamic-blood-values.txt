@@ -1,3 +1,0 @@
-#Dynamically calculated blood values - DON'T EDIT
-minecraft:skeleton_horse=15
-minecraft:zombie_horse=15

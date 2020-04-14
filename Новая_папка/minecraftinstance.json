@@ -1,0 +1,629 @@
+{
+  "baseModLoader": {
+    "id": 4448,
+    "gameVersionId": 7806,
+    "minecraftGameVersionId": 52,
+    "forgeVersion": "14.23.5.2854",
+    "name": "forge-14.23.5.2854",
+    "type": 1,
+    "downloadUrl": "https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854.jar",
+    "filename": "forge-1.12.2-14.23.5.2854.jar",
+    "installMethod": 3,
+    "latest": false,
+    "recommended": false,
+    "approved": false,
+    "dateModified": "2020-04-12T17:57:42Z",
+    "mavenVersionString": "net.minecraftforge:forge:1.12.2-14.23.5.2854",
+    "versionJson": "{\r\n  \"id\": \"forge-14.23.5.2854\",\r\n  \"time\": \"2020-04-12T17:57:42Z\",\r\n  \"releaseTime\": \"2020-04-12T17:57:42Z\",\r\n  \"type\": \"release\",\r\n  \"minecraftArguments\": \"--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge\",\r\n  \"minimumLauncherVersion\": 0,\r\n  \"inheritsFrom\": \"1.12.2\",\r\n  \"jar\": \"forge-14.23.5.2854\",\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.12.2-14.23.5.2854\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854.jar\",\r\n          \"sha1\": \"762f5cb227a8dd88cfd3949033c78f24030b36aa\",\r\n          \"size\": 4464068\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-debug-all:5.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar\",\r\n          \"sha1\": \"3354e11e2b34215f06dab629ab88e06aca477c19\",\r\n          \"size\": 387903\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraft:launchwrapper:1.12\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar\",\r\n          \"sha1\": \"111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\",\r\n          \"size\": 32999\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.jline:jline:3.5.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/jline/jline/3.5.1/jline-3.5.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/jline/jline/3.5.1/jline-3.5.1.jar\",\r\n          \"sha1\": \"51800e9d7a13608894a5a28eed0f5c7fa2f300fb\",\r\n          \"size\": 614590\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe.akka:akka-actor_2.11:2.3.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar\",\r\n          \"sha1\": \"ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\",\r\n          \"size\": 2514991\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe:config:1.2.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/typesafe/config/1.2.1/config-1.2.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/typesafe/config/1.2.1/config-1.2.1.jar\",\r\n          \"sha1\": \"f771f71fdae3df231bcd54d5ca2d57f0bf93f467\",\r\n          \"size\": 219554\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-actors-migration_2.11:1.1.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar\",\r\n          \"sha1\": \"dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\",\r\n          \"size\": 58018\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-compiler:2.11.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar\",\r\n          \"sha1\": \"56ea2e6c025e0821f28d73ca271218b8dd04926a\",\r\n          \"size\": 13449765\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar\",\r\n          \"sha1\": \"0e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\",\r\n          \"size\": 25365\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar\",\r\n          \"sha1\": \"f361a3283452c57fa30c1ee69448995de23c60f7\",\r\n          \"size\": 206575\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-library:2.11.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar\",\r\n          \"sha1\": \"0e11da23da3eabab9f4777b9220e60d44c1aab6a\",\r\n          \"size\": 5538130\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-parser-combinators_2.11:1.0.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar\",\r\n          \"sha1\": \"f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\",\r\n          \"size\": 419701\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-reflect:2.11.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar\",\r\n          \"sha1\": \"6580347e61cc7f8e802941e7fde40fa83b8badeb\",\r\n          \"size\": 4372892\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-swing_2.11:1.0.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar\",\r\n          \"sha1\": \"b1cdd92bd47b1e1837139c1c53020e86bb9112ae\",\r\n          \"size\": 726500\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-xml_2.11:1.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar\",\r\n          \"sha1\": \"7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\",\r\n          \"size\": 648679\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"lzma:lzma:0.0.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"lzma/lzma/0.0.1/lzma-0.0.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/lzma/lzma/0.0.1/lzma-0.0.1.jar\",\r\n          \"sha1\": \"521616dc7487b42bef0e803bd2fa3faf668101d7\",\r\n          \"size\": 5762\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"java3d:vecmath:1.5.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"java3d/vecmath/1.5.2/vecmath-1.5.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/java3d/vecmath/1.5.2/vecmath-1.5.2.jar\",\r\n          \"sha1\": \"79846ba34cbd89e2422d74d53752f993dcc2ccaf\",\r\n          \"size\": 318956\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.trove4j:trove4j:3.0.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar\",\r\n          \"sha1\": \"42ccaf4761f0dfdfa805c9e340d99a755907e2dd\",\r\n          \"size\": 2523218\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.apache.maven:maven-artifact:3.5.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar\",\r\n          \"sha1\": \"7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\",\r\n          \"size\": 54961\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar\",\r\n          \"sha1\": \"cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\",\r\n          \"size\": 78175\r\n        }\r\n      }\r\n    }\r\n  ],\r\n  \"mainClass\": \"net.minecraft.launchwrapper.Launch\"\r\n}",
+    "librariesInstallLocation": "{0}\\libraries\\net\\minecraftforge\\forge\\1.12.2-14.23.5.2854",
+    "minecraftVersion": "1.12.2",
+    "modLoaderGameVersionId": 7806,
+    "modLoaderGameVersionTypeId": 3,
+    "modLoaderGameVersionStatus": 1,
+    "modLoaderGameVersionTypeStatus": 1,
+    "mcGameVersionId": 6756,
+    "mcGameVersionTypeId": 628,
+    "mcGameVersionStatus": 1,
+    "mcGameVersionTypeStatus": 1,
+    "installProfileJson": "{\r\n  \"_comment_\": [\r\n    \"Please do not automate the download and installation of Forge.\",\r\n    \"Our efforts are supported by ads from the download page.\",\r\n    \"If you MUST automate this, please consider supporting the project through https://www.patreon.com/LexManos/\"\r\n  ],\r\n  \"profile\": \"forge\",\r\n  \"version\": \"1.12.2-forge-14.23.5.2854\",\r\n  \"json\": \"/version.json\",\r\n  \"path\": \"net.minecraftforge:forge:1.12.2-14.23.5.2854\",\r\n  \"logo\": \"/big_logo.png\",\r\n  \"minecraft\": \"1.12.2\",\r\n  \"welcome\": \"Welcome to the simple Forge installer.\",\r\n  \"data\": {},\r\n  \"processors\": [],\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"de.oceanlabs.mcp:mcp_config:1.12.2-20200226.224830@zip\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"de/oceanlabs/mcp/mcp_config/1.12.2-20200226.224830/mcp_config-1.12.2-20200226.224830.zip\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/de/oceanlabs/mcp/mcp_config/1.12.2-20200226.224830/mcp_config-1.12.2-20200226.224830.zip\",\r\n          \"sha1\": \"72e1b936f56e0dd394c64caf9c86af01f64dc979\",\r\n          \"size\": 421086\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.12.2-14.23.5.2854\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854.jar\",\r\n          \"url\": \"\",\r\n          \"sha1\": \"762f5cb227a8dd88cfd3949033c78f24030b36aa\",\r\n          \"size\": 4464068\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.12.2-14.23.5.2854:universal\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar\",\r\n          \"size\": 0\r\n        }\r\n      }\r\n    }\r\n  ]\r\n}"
+  },
+  "isUnlocked": true,
+  "javaArgsOverride": null,
+  "javaDirOverride": null,
+  "lastPlayed": "2020-04-14T10:22:13.7509809Z",
+  "manifest": null,
+  "fileDate": "0001-01-01T00:00:00",
+  "installedModpack": null,
+  "projectID": 0,
+  "fileID": 0,
+  "customAuthor": "foxsis112",
+  "modpackOverrides": null,
+  "isMemoryOverride": false,
+  "allocatedMemory": 3228,
+  "guid": "f5878633-ffce-4498-aa97-09f3e292fe70",
+  "gameTypeID": 432,
+  "installPath": "C:\\Users\\Fruksus\\Twitch\\Minecraft\\Instances\\123\\",
+  "name": "123",
+  "cachedScans": [
+    {
+      "folderName": "jei_1.12.2-4.15.0.291.jar",
+      "fingerprint": 3391578337,
+      "fileDateHash": 3443218974,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3391578337
+      ],
+      "status": 1,
+      "timestamp": "2020-04-14T10:22:54.0885756Z",
+      "lastWriteTimeUtc": "2020-04-14T10:19:09.4077519Z",
+      "queryTimestamp": "2020-04-14T10:22:54.5553251Z",
+      "fileCount": 1,
+      "fileSize": 651473
+    },
+    {
+      "folderName": "InventoryTweaks-1.63.jar",
+      "fingerprint": 4009982705,
+      "fileDateHash": 2422831834,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4009982705
+      ],
+      "status": 1,
+      "timestamp": "2020-04-14T10:22:54.0786011Z",
+      "lastWriteTimeUtc": "2020-04-14T10:19:28.4700163Z",
+      "queryTimestamp": "2020-04-14T10:22:54.5543283Z",
+      "fileCount": 1,
+      "fileSize": 263258
+    },
+    {
+      "folderName": "tlskincape_1.12.2-1.4.jar",
+      "fingerprint": 677970007,
+      "fileDateHash": 3168651265,
+      "sectionID": 8,
+      "individualFingerprints": [
+        677970007
+      ],
+      "status": 1,
+      "timestamp": "2020-04-14T10:28:05.0493137Z",
+      "lastWriteTimeUtc": "2020-04-14T10:25:33.7091087Z",
+      "queryTimestamp": "2020-04-14T10:28:05.4582206Z",
+      "fileCount": 1,
+      "fileSize": 193898
+    }
+  ],
+  "isValid": true,
+  "lastPreviousMatchUpdate": "2020-04-14T10:22:55.1917968Z",
+  "isEnabled": true,
+  "isPinned": false,
+  "gameVersion": "1.12.2",
+  "preferenceAlternateFile": false,
+  "preferenceAutoInstallUpdates": false,
+  "preferenceQuickDeleteLibraries": true,
+  "preferenceDeleteSavedVariables": true,
+  "preferenceProcessFileCommands": true,
+  "preferenceReleaseType": 1,
+  "syncProfile": {
+    "PreferenceEnabled": false,
+    "PreferenceAutoSync": true,
+    "PreferenceAutoDelete": false,
+    "PreferenceBackupSavedVariables": false,
+    "GameInstanceGuid": "00000000-0000-0000-0000-000000000000",
+    "SyncProfileID": 0,
+    "SavedVariablesProfile": null,
+    "LastSyncDate": "0001-01-01T00:00:00"
+  },
+  "preferenceShowAddOnInfo": true,
+  "installDate": "2020-04-14T10:18:44.8413586Z",
+  "installedAddons": [
+    {
+      "addonID": 238222,
+      "gameInstanceID": "f5878633-ffce-4498-aa97-09f3e292fe70",
+      "installedFile": {
+        "id": 2803400,
+        "displayName": "jei_1.12.2-4.15.0.291.jar",
+        "fileName": "jei_1.12.2-4.15.0.291.jar",
+        "fileDate": "2019-10-07T01:20:32.567Z",
+        "fileLength": 651473,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2803/400/jei_1.12.2-4.15.0.291.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3894020924,
+            "type": 0
+          },
+          {
+            "foldername": "mezz",
+            "fingerprint": 2909248480,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3888864790,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1488642189,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4278251486,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3391578337,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "jei_1.12.2-4.15.0.291.jar"
+      },
+      "dateInstalled": "2020-04-14T10:28:49.5914262Z",
+      "dateUpdated": "2020-04-14T10:28:49.5934221Z",
+      "dateLastUpdateAttempted": "2020-04-14T10:28:49.5934221Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 247661,
+      "gameInstanceID": "f5878633-ffce-4498-aa97-09f3e292fe70",
+      "installedFile": {
+        "id": 2626416,
+        "displayName": "taiga-1.3.4",
+        "fileName": "taiga-1.12.2-1.3.4.jar",
+        "fileDate": "2018-10-10T13:57:36.903Z",
+        "fileLength": 1529108,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2626/416/taiga-1.12.2-1.3.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 2626417,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 74072,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3307053009,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 569976166,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2431679401,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4004229073,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 427667196,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "taiga-1.12.2-1.3.4.jar"
+      },
+      "dateInstalled": "2020-04-14T10:32:57.1196324Z",
+      "dateUpdated": "2020-04-14T10:32:57.1226243Z",
+      "dateLastUpdateAttempted": "2020-04-14T10:32:57.1226243Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 248787,
+      "gameInstanceID": "f5878633-ffce-4498-aa97-09f3e292fe70",
+      "installedFile": {
+        "id": 2496585,
+        "displayName": "AppleSkin-mc1.12-1.0.9.jar",
+        "fileName": "AppleSkin-mc1.12-1.0.9.jar",
+        "fileDate": "2017-11-03T00:07:53.083Z",
+        "fileLength": 32317,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2496/585/AppleSkin-mc1.12-1.0.9.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0
+          },
+          {
+            "foldername": "betterwithmods",
+            "fingerprint": 1637584094,
+            "type": 0
+          },
+          {
+            "foldername": "squeek",
+            "fingerprint": 1048292493,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3447702788,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4000864019,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2520837536,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1708065614,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "AppleSkin-mc1.12-1.0.9.jar"
+      },
+      "dateInstalled": "2020-04-14T10:29:23.2308907Z",
+      "dateUpdated": "2020-04-14T10:29:23.395451Z",
+      "dateLastUpdateAttempted": "2020-04-14T10:29:23.395451Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 74072,
+      "gameInstanceID": "f5878633-ffce-4498-aa97-09f3e292fe70",
+      "installedFile": {
+        "id": 2902483,
+        "displayName": "TConstruct-1.12.2-2.13.0.183.jar",
+        "fileName": "TConstruct-1.12.2-2.13.0.183.jar",
+        "fileDate": "2020-03-15T17:02:37.37Z",
+        "fileLength": 4023372,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2902/483/TConstruct-1.12.2-2.13.0.183.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 74924,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4217453615,
+            "type": 0
+          },
+          {
+            "foldername": "slimeknights",
+            "fingerprint": 65780644,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 219889385,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4039906649,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 3056415901,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 341838363,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3094578446,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "TConstruct-1.12.2-2.13.0.183.jar"
+      },
+      "dateInstalled": "2020-04-14T10:32:56.7689978Z",
+      "dateUpdated": "2020-04-14T10:32:56.7749821Z",
+      "dateLastUpdateAttempted": "2020-04-14T10:32:56.7749821Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 74924,
+      "gameInstanceID": "f5878633-ffce-4498-aa97-09f3e292fe70",
+      "installedFile": {
+        "id": 2713386,
+        "displayName": "Mantle-1.12-1.3.3.55.jar",
+        "fileName": "Mantle-1.12-1.3.3.55.jar",
+        "fileDate": "2019-05-19T20:21:43.573Z",
+        "fileLength": 843486,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2713/386/Mantle-1.12-1.3.3.55.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2519310866,
+            "type": 0
+          },
+          {
+            "foldername": "slimeknights",
+            "fingerprint": 3140161402,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 770502493,
+            "type": 0
+          },
+          {
+            "foldername": "Mantle.png",
+            "fingerprint": 3296224890,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1859416522,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2810798110,
+        "gameVersion": [
+          "1.12",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Mantle-1.12-1.3.3.55.jar"
+      },
+      "dateInstalled": "2020-04-14T10:32:55.7355361Z",
+      "dateUpdated": "2020-04-14T10:32:55.7375323Z",
+      "dateLastUpdateAttempted": "2020-04-14T10:32:55.7375323Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 32274,
+      "gameInstanceID": "f5878633-ffce-4498-aa97-09f3e292fe70",
+      "installedFile": {
+        "id": 2916002,
+        "displayName": "journeymap-1.12.2-5.7.1",
+        "fileName": "journeymap-1.12.2-5.7.1.jar",
+        "fileDate": "2020-03-29T21:09:22.773Z",
+        "fileLength": 6990968,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2916/2/journeymap-1.12.2-5.7.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 2916003,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 226005,
+            "type": 4,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1736787495,
+            "type": 0
+          },
+          {
+            "foldername": "journeymap",
+            "fingerprint": 2876717480,
+            "type": 0
+          },
+          {
+            "foldername": "modinfo",
+            "fingerprint": 3257172988,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 1429981559,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1383692062,
+            "type": 0
+          },
+          {
+            "foldername": "license.txt",
+            "fingerprint": 3989053437,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3632965706,
+            "type": 0
+          },
+          {
+            "foldername": "dummyThing",
+            "fingerprint": 79582461,
+            "type": 0
+          },
+          {
+            "foldername": "info",
+            "fingerprint": 2511953692,
+            "type": 0
+          },
+          {
+            "foldername": "LICENSE.txt",
+            "fingerprint": 1185419476,
+            "type": 0
+          },
+          {
+            "foldername": "NOTICE.txt",
+            "fingerprint": 3411389661,
+            "type": 0
+          },
+          {
+            "foldername": "about.html",
+            "fingerprint": 1421502970,
+            "type": 0
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 2373182980,
+            "type": 0
+          },
+          {
+            "foldername": "jetty-dir.css",
+            "fingerprint": 4183154058,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1076064603,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "journeymap-1.12.2-5.7.1.jar"
+      },
+      "dateInstalled": "2020-04-14T10:28:53.9217599Z",
+      "dateUpdated": "2020-04-14T10:28:53.9297389Z",
+      "dateLastUpdateAttempted": "2020-04-14T10:28:53.9297389Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    }
+  ],
+  "isMigrated": false,
+  "preferenceUploadProfile": false
+}

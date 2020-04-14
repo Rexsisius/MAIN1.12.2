@@ -1,0 +1,217 @@
+2020-04-14 15:45:06,717 main 
+2020-04-14 15:45:06,718 main -------------------------------------------------------------------
+2020-04-14 15:45:07,454 main run double running protectin
+2020-04-14 15:45:07,457 main [Downloader2] Loaded configuration: normal
+2020-04-14 15:45:07,747 main [TLAUNCHER][STATIC] initialize inner config
+2020-04-14 15:45:07,757 MD#1 [Downloader2] Files in queue 14
+2020-04-14 15:45:07,758 MD#1 [Downloader2] Starting download 14 files...
+2020-04-14 15:45:08,109 DT#2#3 [D#2] >  https://securerepository.net/update/downloads/libraries/javax/inject/javax.inject/1/javax.inject-1.jar 
+2020-04-14 15:45:08,110 DT#1#2 [D#1] >  http://central.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0.jar 
+2020-04-14 15:45:08,331 DT#1#2 [D#1] >  Failed to download from:  http://central.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0.jar
+java.net.UnknownHostException: central.maven.org
+at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+at java.net.PlainSocketImpl.connect(Unknown Source)
+at java.net.SocksSocketImpl.connect(Unknown Source)
+at java.net.Socket.connect(Unknown Source)
+at sun.net.NetworkClient.doConnect(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.<init>(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.downloadURL(DownloaderThread.java:181)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.download(DownloaderThread.java:153)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.run(DownloaderThread.java:92)
+Thread called by: org.tlauncher.util.async.ExtendedThread$ExtendedThreadCaller
+at org.tlauncher.util.async.ExtendedThread.<init>(ExtendedThread.java:17)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.<init>(DownloaderThread.java:41)
+at org.tlauncher.tlauncher.downloader.Downloader.sortOut(Downloader.java:243)
+at org.tlauncher.tlauncher.downloader.Downloader.run(Downloader.java:194)
+
+2020-04-14 15:45:08,332 DT#1#2 [D#1] >  http://repo.tlauncher.org/update/downloads/libraries/com/google/inject/guice/4.1.0/guice-4.1.0.jar 
+2020-04-14 15:45:09,443 DT#1#2 [D#1] >  http://central.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.jar 
+2020-04-14 15:45:09,453 DT#1#2 [D#1] >  Failed to download from:  http://central.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.jar
+java.net.UnknownHostException: central.maven.org
+at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+at java.net.PlainSocketImpl.connect(Unknown Source)
+at java.net.SocksSocketImpl.connect(Unknown Source)
+at java.net.Socket.connect(Unknown Source)
+at sun.net.NetworkClient.doConnect(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.<init>(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.downloadURL(DownloaderThread.java:181)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.download(DownloaderThread.java:153)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.run(DownloaderThread.java:92)
+Thread called by: org.tlauncher.util.async.ExtendedThread$ExtendedThreadCaller
+at org.tlauncher.util.async.ExtendedThread.<init>(ExtendedThread.java:17)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.<init>(DownloaderThread.java:41)
+at org.tlauncher.tlauncher.downloader.Downloader.sortOut(Downloader.java:243)
+at org.tlauncher.tlauncher.downloader.Downloader.run(Downloader.java:194)
+
+2020-04-14 15:45:09,454 DT#1#2 [D#1] >  http://repo.tlauncher.org/update/downloads/libraries/com/google/inject/extentions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.jar 
+2020-04-14 15:45:10,089 DT#2#3 [D#2] >  http://central.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar 
+2020-04-14 15:45:10,090 DT#2#3 [D#2] >  Failed to download from:  http://central.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+java.net.UnknownHostException: central.maven.org
+at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+at java.net.PlainSocketImpl.connect(Unknown Source)
+at java.net.SocksSocketImpl.connect(Unknown Source)
+at java.net.Socket.connect(Unknown Source)
+at sun.net.NetworkClient.doConnect(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.<init>(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.downloadURL(DownloaderThread.java:181)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.download(DownloaderThread.java:153)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.run(DownloaderThread.java:92)
+Thread called by: org.tlauncher.util.async.ExtendedThread$ExtendedThreadCaller
+at org.tlauncher.util.async.ExtendedThread.<init>(ExtendedThread.java:17)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.<init>(DownloaderThread.java:41)
+at org.tlauncher.tlauncher.downloader.Downloader.sortOut(Downloader.java:243)
+at org.tlauncher.tlauncher.downloader.Downloader.run(Downloader.java:194)
+
+2020-04-14 15:45:10,090 DT#2#3 [D#2] >  https://securerepository.net/update/downloads/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar 
+2020-04-14 15:45:10,134 DT#1#2 [D#1] >  http://repo.tlauncher.org/update/downloads/libraries/com/google/guava/guava/19.0/guava-19.0.jar 
+2020-04-14 15:45:10,161 DT#2#3 [D#2] >  https://securerepository.net/update/downloads/libraries/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar 
+2020-04-14 15:45:10,409 DT#1#2 [D#1] >  http://repo.tlauncher.org/update/downloads/libraries/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar 
+2020-04-14 15:45:10,485 DT#2#3 [D#2] >  http://central.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar 
+2020-04-14 15:45:10,486 DT#2#3 [D#2] >  Failed to download from:  http://central.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar
+java.net.UnknownHostException: central.maven.org
+at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+at java.net.PlainSocketImpl.connect(Unknown Source)
+at java.net.SocksSocketImpl.connect(Unknown Source)
+at java.net.Socket.connect(Unknown Source)
+at sun.net.NetworkClient.doConnect(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.<init>(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.downloadURL(DownloaderThread.java:181)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.download(DownloaderThread.java:153)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.run(DownloaderThread.java:92)
+Thread called by: org.tlauncher.util.async.ExtendedThread$ExtendedThreadCaller
+at org.tlauncher.util.async.ExtendedThread.<init>(ExtendedThread.java:17)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.<init>(DownloaderThread.java:41)
+at org.tlauncher.tlauncher.downloader.Downloader.sortOut(Downloader.java:243)
+at org.tlauncher.tlauncher.downloader.Downloader.run(Downloader.java:194)
+
+2020-04-14 15:45:10,486 DT#2#3 [D#2] >  https://securerepository.net/update/downloads/libraries/log4j/log4j/1.2.17/log4j-1.2.17.jar 
+2020-04-14 15:45:10,525 DT#1#2 [D#1] >  http://central.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar 
+2020-04-14 15:45:10,526 DT#1#2 [D#1] >  Failed to download from:  http://central.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar
+java.net.UnknownHostException: central.maven.org
+at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+at java.net.PlainSocketImpl.connect(Unknown Source)
+at java.net.SocksSocketImpl.connect(Unknown Source)
+at java.net.Socket.connect(Unknown Source)
+at sun.net.NetworkClient.doConnect(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.openServer(Unknown Source)
+at sun.net.www.http.HttpClient.<init>(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.http.HttpClient.New(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.downloadURL(DownloaderThread.java:181)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.download(DownloaderThread.java:153)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.run(DownloaderThread.java:92)
+Thread called by: org.tlauncher.util.async.ExtendedThread$ExtendedThreadCaller
+at org.tlauncher.util.async.ExtendedThread.<init>(ExtendedThread.java:17)
+at org.tlauncher.tlauncher.downloader.DownloaderThread.<init>(DownloaderThread.java:41)
+at org.tlauncher.tlauncher.downloader.Downloader.sortOut(Downloader.java:243)
+at org.tlauncher.tlauncher.downloader.Downloader.run(Downloader.java:194)
+
+2020-04-14 15:45:10,526 DT#1#2 [D#1] >  http://repo.tlauncher.org/update/downloads/libraries/org/tukaani/xz/1.5/xz-1.5.jar 
+2020-04-14 15:45:10,594 DT#1#2 [D#1] >  https://securerepository.net/update/downloads/libraries/org/tlauncher/picture-bundle/2.8/picture-bundle-2.8.jar 
+2020-04-14 15:45:11,514 DT#1#2 [D#1] >  https://securerepository.net/update/downloads/libraries/org/tlauncher/skin-server-API/1.0/skin-server-API-1.0.jar 
+2020-04-14 15:45:11,538 DT#2#3 [D#2] >  http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/tlauncher-resource/1.4/tlauncher-resource-1.4.jar 
+2020-04-14 15:45:11,884 DT#2#3 [D#2] >  http://repo.tlauncher.org/update/downloads/libraries/com/github/junrar/junrar/0.7/junrar-0.7.jar 
+2020-04-14 15:45:11,944 DT#2#3 [D#2] >  http://repo.tlauncher.org/update/downloads/libraries/dnsjava/dnsjava/2.1.8/dnsjava-2.1.8.jar 
+2020-04-14 15:45:12,026 main [Bootstrapper] createLauncher
+2020-04-14 15:45:12,027 main path C:\Program Files\Java\jre1.8.0_241
+2020-04-14 15:45:12,027 main [Bootstrapper] choose jvm:C:\Program Files\Java\jre1.8.0_241\bin\javaw.exe
+2020-04-14 15:45:12,028 main [Bootstrapper] validate files
+2020-04-14 15:45:12,028 main [Bootstrapper] end validated files
+2020-04-14 15:45:12,029 main [Bootstrapper] Starting launcher...
+2020-04-14 15:45:12,164 Thread-3 > [TLAUNCHER][STATIC] initialize inner config
+2020-04-14 15:45:12,202 Thread-3 > [Loading] INITIALIZING
+2020-04-14 15:45:14,305 Thread-3 > Starting TLauncher 2.69 RELEASE
+2020-04-14 15:45:14,306 Thread-3 > For more information, visit https://tlauncher.org/
+2020-04-14 15:45:14,306 Thread-3 > Startup time: 14.04.2020 15:45:14
+2020-04-14 15:45:14,306 Thread-3 > ---
+2020-04-14 15:45:14,309 Thread-3 > run double running protectin
+2020-04-14 15:45:14,497 Thread-3 > [Loading] LOADING_CONFIGURATION
+2020-04-14 15:45:14,497 Thread-3 > Loading configuration from file: C:\Users\Fruksus\AppData\Roaming\.tlauncher\tlauncher-2.0.properties
+2020-04-14 15:45:14,510 Thread-3 > [Configuration] Constant values: {}
+2020-04-14 15:45:14,548 Thread-3 > Machine info: -------------------------------------------------------
+2020-04-14 15:45:14,548 Thread-3 > Windows 10 10.0, Java 1.8.0_241, jvm bit x64, 16336 MB RAM
+2020-04-14 15:45:14,549 Thread-3 > java path=C:\Program Files\Java\jre1.8.0_241\bin\javaw.exe
+2020-04-14 15:45:14,549 Thread-3 > Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+2020-04-14 15:45:14,549 Thread-3 >  NVIDIA GeForce GT 1030, GeForce GT 1030, 10150 MB, spacedesk Graphics Adapter, Unknown, 8168 MB
+2020-04-14 15:45:14,549 Thread-3 > -------------------------------------------------------
+2020-04-14 15:45:14,549 Thread-3 > Selected locale: ru_RU
+2020-04-14 15:45:14,646 Thread-3 > [Loading] LOADING_CONSOLE
+2020-04-14 15:45:14,875 Thread-3 > [Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+2020-04-14 15:45:15,104 Thread-3 > 
+2020-04-14 15:45:15,279 Thread-3 > [Downloader2] Loaded configuration: good
+2020-04-14 15:45:15,411 Thread-3 > [Updater] Requesting an update...
+2020-04-14 15:45:15,414 Thread-3 > [Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2020-04-14 15:45:15,418 Thread-3 > [Updater] Making request: http://repo.tlauncher.org/update/lch/update_2.0.json?version=2.69&client=dc242789-ec95-40cc-aa3b-9202199e3f32
+2020-04-14 15:45:15,499 Thread-3 > [Updater] Request time: 84 ms
+2020-04-14 15:45:15,500 Thread-3 > [Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2020-04-14 15:45:15,654 Thread-3 > [Browser] Loading resources...
+2020-04-14 15:45:15,906 Thread-3 > [Browser] Loading background...
+2020-04-14 15:45:15,999 Thread-3 > [Browser] Cleaning up after loading:
+2020-04-14 15:45:16,002 Thread-3 > Starting garbage collector: 67 / 194 MB
+2020-04-14 15:45:16,077 Thread-3 > Garbage collector completed: 14 / 194 MB
+2020-04-14 15:45:16,079 Thread-3 > [Loading] LOADING_MANAGERS
+2020-04-14 15:45:16,092 Thread-3 > [LocalVersionList] Base directory: C:\Users\Fruksus\Twitch\Minecraft\Instances\123
+2020-04-14 15:45:16,113 Thread-3 > [ProfileManager] Refreshing profiles from: C:\Users\Fruksus\Twitch\Minecraft\Instances\123\TlauncherProfiles.json
+2020-04-14 15:45:16,137 Thread-3 > [AdvertisingStatusObserver]  started to get ad information
+2020-04-14 15:45:16,137 Thread-3 > [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.6.json
+2020-04-14 15:45:16,138 Thread-3 > [AdvertisingStatusObserver]  finished to get add information
+2020-04-14 15:45:16,147 Thread-3 > [Loading] LOADING_WINDOW
+2020-04-14 15:45:16,467 Thread-3 > [REPO][SERVER_LIST_REPO] Success: Reached the repo in 261 ms.
+2020-04-14 15:45:16,484 Thread-3 > [JFXStartPageLoader]  start load page: http://page.tlauncher.org/update/downloads/configs/client/index.html
+2020-04-14 15:45:16,490 Thread-3 > [Browser] Running in JavaFX Thread
+2020-04-14 15:45:16,492 Thread-3 > [Browser] Preparing JavaFX...
+2020-04-14 15:45:16,573 Thread-3 > [Loading] PREPARING_MAINPANE
+2020-04-14 15:45:16,622 Thread-3 > [Browser] Initializing...
+2020-04-14 15:45:17,409 Thread-3 > [Downloader2] Loaded configuration: good
+2020-04-14 15:45:17,974 Thread-3 > [JFXStartPageLoader]  succeeded load page: http://page.tlauncher.org/update/downloads/configs/client/index.html during 1
+2020-04-14 15:45:17,975 Thread-3 > [Browser@1848687369] Loaded successfully: "http://page.tlauncher.org/update/downloads/configs/client/index.html"
+2020-04-14 15:45:18,069 Thread-3 > [Browser] add listens into server_choose
+2020-04-14 15:45:18,070 Thread-3 > [Browser] finished listens into server_choose
+2020-04-14 15:45:19,048 Thread-3 > [Loading] POSTINIT_GUI
+2020-04-14 15:45:19,048 Thread-3 > [Frame] Packing main frame...
+2020-04-14 15:45:19,133 Thread-3 > [Frame] Resizing main pane...
+2020-04-14 15:45:19,134 Thread-3 > Updater is already closed. Showing up...
+2020-04-14 15:45:19,134 Thread-3 > Visibility set.
+2020-04-14 15:45:19,135 Thread-3 > [Loading] REFRESHING_INFO
+2020-04-14 15:45:19,140 Thread-3 > [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+2020-04-14 15:45:19,141 Thread-3 > Started! (4643 ms.)
+2020-04-14 15:45:19,141 Thread-3 > [VersionManager] Refreshing versions remotely...
+2020-04-14 15:45:19,141 Thread-3 > [Loading] SUCCESS
+2020-04-14 15:45:19,142 Thread-3 [Bootstrapper] I can be terminated now: 0

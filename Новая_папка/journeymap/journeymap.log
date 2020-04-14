@@ -1,21 +1,8 @@
-[16:13:55] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[16:13:55] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[16:13:55] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[16:13:55] [Client thread/INFO] [PropertiesBase] core (FirstLoaded) Setting config file to version "5.7.1": journeymap.core.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] core (Valid) Creating config file: D:\BILD\MAIN1.12.2\Новая_папка\journeymap\config\5.7\journeymap.core.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] fullmap (FirstLoaded) Setting config file to version "5.7.1": journeymap.fullmap.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] fullmap (Valid) Creating config file: D:\BILD\MAIN1.12.2\Новая_папка\journeymap\config\5.7\journeymap.fullmap.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] minimap (Initialized) Setting config file to version "5.7.1": journeymap.minimap.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] minimap (Valid) Creating config file: D:\BILD\MAIN1.12.2\Новая_папка\journeymap\config\5.7\journeymap.minimap.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] minimap2 (FirstLoaded) Setting config file to version "5.7.1": journeymap.minimap2.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] minimap2 (Valid) Creating config file: D:\BILD\MAIN1.12.2\Новая_папка\journeymap\config\5.7\journeymap.minimap2.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] topo (FirstLoaded) Setting config file to version "5.7.1": journeymap.topo.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] topo (Valid) Creating config file: D:\BILD\MAIN1.12.2\Новая_папка\journeymap\config\5.7\journeymap.topo.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] webmap (FirstLoaded) Setting config file to version "5.7.1": journeymap.webmap.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] webmap (Valid) Creating config file: D:\BILD\MAIN1.12.2\Новая_папка\journeymap\config\5.7\journeymap.webmap.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] waypoint (FirstLoaded) Setting config file to version "5.7.1": journeymap.waypoint.config
-[16:13:55] [Client thread/INFO] [PropertiesBase] waypoint (Valid) Creating config file: D:\BILD\MAIN1.12.2\Новая_папка\journeymap\config\5.7\journeymap.waypoint.config
-[16:13:55] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
+[14:27:02] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[14:27:02] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[14:27:02] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[14:27:02] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[14:27:03] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
 Forge: 14.23.5.2847
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=ru_ru, locale=ru_ru
 Features: 
@@ -26,38 +13,33 @@ Features:
 	MapTopo : singleplayer = true , multiplayer = true
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
-MiniMapProperties{state=SavedOk, file=journeymap.minimap.config, configVersion=5.7.1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Игровое время, sizePercent=30, showDayNight=true, info3Label=Кординаты, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Маленький точки, showReticle=true, orientation=Север, systemTimeRealFormat=HH:mm:ss, shape=Окружность, showSelf=true, info4Label=Биом, locationFormat=xzyv, playerDisplay=Маленький точки, showGrid=true, reticleOrientation=Компас, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Вверху справа, info1Label=Пустой, fontScale=2}
-MiniMapProperties{state=SavedOk, file=journeymap.minimap2.config, configVersion=5.7.1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Игровое время, sizePercent=30, showDayNight=true, info3Label=Кординаты, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Маленький точки, showReticle=true, orientation=Север, systemTimeRealFormat=HH:mm:ss, shape=Прямоугольник, showSelf=true, info4Label=Биом, locationFormat=xzyv, playerDisplay=Маленький точки, showGrid=true, reticleOrientation=Компас, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Вверху справа, info1Label=Пустой, fontScale=2}
-FullMapProperties{state=SavedOk, file=journeymap.fullmap.config, configVersion=5.7.1, mobDisplay=Маленький точки, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Маленький точки, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
-WaypointProperties{state=SavedOk, file=journeymap.waypoint.config, configVersion=5.7.1, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
-WebMapProperties{state=SavedOk, file=journeymap.webmap.config, configVersion=5.7.1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
-CoreProperties{state=SavedOk, file=journeymap.core.config, configVersion=5.7.1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Окружность, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[16:13:55] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[16:13:55] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[16:13:55] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[16:14:10] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[16:14:10] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[16:14:10] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[16:14:10] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[16:14:11] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[16:14:11] [Client thread/DEBUG] [StatTimer] elapsed was slow: 1466.003499
-[16:14:11] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r§r1466§8ms§r
-[16:15:52] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[16:15:52] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[16:15:53] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\DexLand~ru\waypoints
-[16:15:53] [Client thread/INFO] [JourneymapClient] Mapping started in D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\DexLand~ru\DIM0. Memory: 2630MB total, 685MB free 
-[16:15:53] [Client thread/INFO] [ChatLog] JourneyMap: Нажмите [J].
-[16:16:19] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\DexLand~ru\DIM0
-[16:22:47] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[16:22:47] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[16:22:47] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\~Minecraft\waypoints
-[16:22:47] [Client thread/INFO] [JourneymapClient] Mapping started in D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\~Minecraft\DIM0. Memory: 2630MB total, 443MB free 
-[16:24:09] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\~Minecraft\DIM0
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.7.1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Игровое время, sizePercent=30, showDayNight=true, info3Label=Кординаты, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Маленький точки, showReticle=true, orientation=Север, systemTimeRealFormat=HH:mm:ss, shape=Окружность, showSelf=true, info4Label=Биом, locationFormat=xzyv, playerDisplay=Маленький точки, showGrid=true, reticleOrientation=Компас, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Вверху справа, info1Label=Пустой, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.7.1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Игровое время, sizePercent=30, showDayNight=true, info3Label=Кординаты, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Маленький точки, showReticle=true, orientation=Север, systemTimeRealFormat=HH:mm:ss, shape=Прямоугольник, showSelf=true, info4Label=Биом, locationFormat=xzyv, playerDisplay=Маленький точки, showGrid=true, reticleOrientation=Компас, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Вверху справа, info1Label=Пустой, fontScale=2}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7.1, mobDisplay=Маленький точки, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Маленький точки, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.1, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Окружность, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[14:27:03] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[14:27:03] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[14:27:03] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[14:27:24] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[14:27:24] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[14:27:25] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[14:27:25] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[14:27:26] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[14:27:26] [Client thread/DEBUG] [StatTimer] elapsed was slow: 2293.163
+[14:27:26] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r§r2293.16§8ms§r
+[14:36:17] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[14:36:17] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[14:36:17] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\~Minecraft\waypoints
+[14:36:17] [Client thread/INFO] [JourneymapClient] Mapping started in D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\~Minecraft\DIM0. Memory: 1979MB total, 802MB free 
+[14:36:18] [Client thread/INFO] [ChatLog] JourneyMap: Нажмите [J].
+[14:37:36] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\BILD\MAIN1.12.2\Новая_папка\journeymap\data\mp\~Minecraft\DIM0

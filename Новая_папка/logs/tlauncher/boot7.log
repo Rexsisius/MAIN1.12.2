@@ -189,3 +189,73 @@ at org.tlauncher.tlauncher.downloader.Downloader.run(Downloader.java:194)
 2020-04-08 18:06:12,338 Thread-3 > Started! (4567 ms.)
 2020-04-08 18:06:12,338 Thread-3 > [Loading] SUCCESS
 2020-04-08 18:06:12,338 Thread-3 [Bootstrapper] I can be terminated now: 0
+2020-04-14 16:44:11,134 main 
+2020-04-14 16:44:11,135 main -------------------------------------------------------------------
+2020-04-14 16:44:12,002 main run double running protectin
+2020-04-14 16:44:12,005 main [Downloader2] Loaded configuration: normal
+2020-04-14 16:44:12,466 main [Bootstrapper] createLauncher
+2020-04-14 16:44:12,466 main path C:\Program Files\Java\jre1.8.0_241
+2020-04-14 16:44:12,467 main [Bootstrapper] choose jvm:C:\Program Files\Java\jre1.8.0_241\bin\javaw.exe
+2020-04-14 16:44:12,470 main [Bootstrapper] validate files
+2020-04-14 16:44:12,471 main [Bootstrapper] end validated files
+2020-04-14 16:44:12,472 main [Bootstrapper] Starting launcher...
+2020-04-14 16:44:12,908 Thread-2 > [TLAUNCHER][STATIC] initialize inner config
+2020-04-14 16:44:12,967 Thread-2 > [Loading] INITIALIZING
+2020-04-14 16:44:15,472 Thread-2 > Starting TLauncher 2.69 RELEASE
+2020-04-14 16:44:15,472 Thread-2 > For more information, visit https://tlauncher.org/
+2020-04-14 16:44:15,472 Thread-2 > Startup time: 14.04.2020 16:44:15
+2020-04-14 16:44:15,473 Thread-2 > ---
+2020-04-14 16:44:15,473 Thread-2 > run double running protectin
+2020-04-14 16:44:15,691 Thread-2 > [Loading] LOADING_CONFIGURATION
+2020-04-14 16:44:15,692 Thread-2 > Loading configuration from file: C:\Users\Fruksus\AppData\Roaming\.tlauncher\tlauncher-2.0.properties
+2020-04-14 16:44:15,703 Thread-2 > [Configuration] Constant values: {}
+2020-04-14 16:44:15,741 Thread-2 > Machine info: -------------------------------------------------------
+2020-04-14 16:44:15,741 Thread-2 > Windows 10 10.0, Java 1.8.0_241, jvm bit x64, 16336 MB RAM
+2020-04-14 16:44:15,741 Thread-2 > java path=C:\Program Files\Java\jre1.8.0_241\bin\javaw.exe
+2020-04-14 16:44:15,742 Thread-2 > Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+2020-04-14 16:44:15,742 Thread-2 >  NVIDIA GeForce GT 1030, GeForce GT 1030, 10150 MB, spacedesk Graphics Adapter, Unknown, 8168 MB
+2020-04-14 16:44:15,742 Thread-2 > -------------------------------------------------------
+2020-04-14 16:44:15,742 Thread-2 > Selected locale: ru_RU
+2020-04-14 16:44:15,807 Thread-2 > [Loading] LOADING_CONSOLE
+2020-04-14 16:44:16,077 Thread-2 > [Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+2020-04-14 16:44:16,287 Thread-2 > 
+2020-04-14 16:44:16,444 Thread-2 > [Downloader2] Loaded configuration: good
+2020-04-14 16:44:16,574 Thread-2 > [Updater] Requesting an update...
+2020-04-14 16:44:16,579 Thread-2 > [Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2020-04-14 16:44:16,579 Thread-2 > [Updater] Making request: http://repo.tlauncher.org/update/lch/update_2.0.json?version=2.69&client=dc242789-ec95-40cc-aa3b-9202199e3f32
+2020-04-14 16:44:16,664 Thread-2 > [Updater] Request time: 87 ms
+2020-04-14 16:44:16,664 Thread-2 > [Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_2.0.json
+2020-04-14 16:44:16,864 Thread-2 > [Browser] Loading resources...
+2020-04-14 16:44:17,104 Thread-2 > [Browser] Loading background...
+2020-04-14 16:44:17,154 Thread-2 > [Browser] Cleaning up after loading:
+2020-04-14 16:44:17,155 Thread-2 > Starting garbage collector: 68 / 193 MB
+2020-04-14 16:44:17,231 Thread-2 > Garbage collector completed: 13 / 193 MB
+2020-04-14 16:44:17,234 Thread-2 > [Loading] LOADING_MANAGERS
+2020-04-14 16:44:17,244 Thread-2 > [LocalVersionList] Base directory: D:\BILD\MAIN1.12.2\>20O_?0?:0
+2020-04-14 16:44:17,259 Thread-2 > [ProfileManager] Refreshing profiles from: D:\BILD\MAIN1.12.2\>20O_?0?:0\TlauncherProfiles.json
+2020-04-14 16:44:17,266 Thread-2 > [AdvertisingStatusObserver]  started to get ad information
+2020-04-14 16:44:17,267 Thread-2 > [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.6.json
+2020-04-14 16:44:17,267 Thread-2 > [AdvertisingStatusObserver]  finished to get add information
+2020-04-14 16:44:17,275 Thread-2 > [Loading] LOADING_WINDOW
+2020-04-14 16:44:17,522 Thread-2 > [JFXStartPageLoader]  start load page: http://page.tlauncher.org/update/downloads/configs/client/index.html
+2020-04-14 16:44:17,523 Thread-2 > [Browser] Running in JavaFX Thread
+2020-04-14 16:44:17,523 Thread-2 > [Browser] Preparing JavaFX...
+2020-04-14 16:44:17,608 Thread-2 > [REPO][SERVER_LIST_REPO] Success: Reached the repo in 308 ms.
+2020-04-14 16:44:17,642 Thread-2 > [Browser] Initializing...
+2020-04-14 16:44:17,742 Thread-2 > [Loading] PREPARING_MAINPANE
+2020-04-14 16:44:18,527 Thread-2 > [Downloader2] Loaded configuration: good
+2020-04-14 16:44:19,184 Thread-2 > [JFXStartPageLoader]  succeeded load page: http://page.tlauncher.org/update/downloads/configs/client/index.html during 1
+2020-04-14 16:44:19,184 Thread-2 > [Browser@261846985] Loaded successfully: "http://page.tlauncher.org/update/downloads/configs/client/index.html"
+2020-04-14 16:44:19,294 Thread-2 > [Browser] add listens into server_choose
+2020-04-14 16:44:19,295 Thread-2 > [Browser] finished listens into server_choose
+2020-04-14 16:44:20,346 Thread-2 > [Loading] POSTINIT_GUI
+2020-04-14 16:44:20,348 Thread-2 > [Frame] Packing main frame...
+2020-04-14 16:44:20,437 Thread-2 > [Frame] Resizing main pane...
+2020-04-14 16:44:20,438 Thread-2 > Updater is already closed. Showing up...
+2020-04-14 16:44:20,438 Thread-2 > Visibility set.
+2020-04-14 16:44:20,439 Thread-2 > [Loading] REFRESHING_INFO
+2020-04-14 16:44:20,444 Thread-2 > [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 45000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+2020-04-14 16:44:20,444 Thread-2 > [VersionManager] Refreshing versions remotely...
+2020-04-14 16:44:20,445 Thread-2 > Started! (4753 ms.)
+2020-04-14 16:44:20,449 Thread-2 > [Loading] SUCCESS
+2020-04-14 16:44:20,449 Thread-2 [Bootstrapper] I can be terminated now: 0

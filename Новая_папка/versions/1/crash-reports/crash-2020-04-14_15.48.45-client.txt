@@ -1,0 +1,71 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2020-04-14 15:48:45 YEKT
+Description: Initializing game
+
+java.lang.IllegalAccessError: tried to access class org.spongepowered.asm.mixin.transformer.MixinTransformer from class net.minecraftforge.fml.common.Loader
+    at net.minecraftforge.fml.common.Loader.handler$zza000$beforeConstructingMods(Loader.java:1131)
+    at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:594)
+    at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+    at net.minecraft.client.Minecraft.init(Minecraft.java:467)
+    at net.minecraft.client.Minecraft.run(Minecraft.java:3931)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_241, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 87939328 bytes (83 MB) / 335429632 bytes (319 MB) up to 7158890496 bytes (6827 MB)
+  JVM Flags: 3 total; -Xmn128M -Xmx6840M -XX:+UseConcMarkSweepGC
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2847 Optifine OptiFine_1.12.2_HD_U_F6_pre1 10 mods loaded, 10 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State | ID                         | Version         | Source                          | Signature |
+       |:----- |:-------------------------- |:--------------- |:------------------------------- |:--------- |
+       | L     | minecraft                  | 1.12.2          | minecraft.jar                   | None      |
+       | L     | mcp                        | 9.42            | minecraft.jar                   | None      |
+       | L     | FML                        | 8.0.99.99       | forge-1.12.2-14.23.5.2847.jar   | None      |
+       | L     | forge                      | 14.23.5.2847    | forge-1.12.2-14.23.5.2847.jar   | None      |
+       | L     | foamfixcore                | 7.7.4           | minecraft.jar                   | None      |
+       | L     | aiimprovements             | 0.0.1.3         | AIImprovements-1.12-0.0.1b3.jar | None      |
+       | L     | foamfix                    | 0.10.10-1.12.2  | foamfix-0.10.10-1.12.2.jar      | None      |
+       | L     | performant                 | 1.12.2-1.4      | performant-1.12.2-1.9.jar       | None      |
+       | L     | tlauncher_custom_cape_skin | 1.4             | tlskincape1.12.2-1.4.jar        | None      |
+       | L     | vanillafix                 | 1.0.10-SNAPSHOT | VanillaFix-1.0.10-99.jar        | None      |
+  Loaded coremods (and transformers): VanillaFixLoadingPlugin (VanillaFix-1.0.10-99.jar)
+                                        
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      TLSkinCapeHookLoader (tlskincape1.12.2-1.4.jar)
+                                        gloomyfolken.hooklib.minecraft.PrimaryClassTransformer
+                                      PerformantLoadingPlugin (performant-1.12.2-1.9.jar)
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 445.75' Renderer: 'GeForce GT 1030/PCIe/SSE2'
+  Suspected Mods: Unknown
+  Launched Version: 1
+  LWJGL: 2.9.4
+  OpenGL: GeForce GT 1030/PCIe/SSE2 GL version 4.6.0 NVIDIA 445.75, NVIDIA Corporation
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
+  Type: Client (map_client.txt)
+  Resource Packs: 
+  Current Language: Русский (Россия)
+  Profiler Position: N/A (disabled)
+  CPU: 4x Intel(R) Pentium(R) CPU G4600 @ 3.60GHz

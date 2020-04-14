@@ -1,0 +1,17 @@
+{
+  "twilightforest:alt/compat/tconstruct": {
+    "criteria": {
+      "book": "2020-04-14 14:00:07 +0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2020-04-14 14:04:05 +0500",
+      "plains": "2020-04-14 14:00:07 +0500",
+      "river": "2020-04-14 14:04:28 +0500",
+      "desert": "2020-04-14 14:04:34 +0500"
+    },
+    "done": false
+  }
+}

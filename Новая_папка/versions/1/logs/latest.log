@@ -1,0 +1,263 @@
+[18:29:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:45] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:45] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[18:29:45] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_241
+[18:29:46] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[18:29:46] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[18:29:46] [main/INFO] [FML]: Searching D:\BILD\MAIN1.12.2\Новая_папка\versions\1\mods for mods
+[18:29:46] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[18:29:46] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.1.30.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:29:46] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:29:46] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[18:29:46] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.10-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:29:46] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:29:46] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:29:46] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:29:46] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[18:29:46] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.64%2Bdev.150.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:29:46] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:29:46] [main/WARN] [FML]: The coremod ivorius.ivtoolkit.IvToolkitLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:29:46] [main/WARN] [FML]: The coremod IvToolkit (ivorius.ivtoolkit.IvToolkitLoadingPlugin) is not signed!
+[18:29:46] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Mekanism-1.12.2-9.8.3.390.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:29:46] [main/WARN] [FML]: The coremod mekanism.coremod.MekanismCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:29:46] [main/WARN] [FML]: The coremod MekanismCoremod (mekanism.coremod.MekanismCoremod) is not signed!
+[18:29:46] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from preview_OptiFine_1.12.2_HD_U_F6_pre1.jar
+[18:29:46] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SereneSeasons-1.12.2-1.2.18-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:29:46] [main/WARN] [FML]: The coremod sereneseasons.asm.SSLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:29:46] [main/WARN] [FML]: The coremod SSLoadingPlugin (sereneseasons.asm.SSLoadingPlugin) is not signed!
+[18:29:46] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in tlskincape1.12.2-1.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:29:47] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from VanillaFix-1.0.10-99.jar
+[18:29:47] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:29:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:29:47] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[18:29:47] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[18:29:47] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[18:29:47] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/D:/BILD/MAIN1.12.2/Новая_папка/versions/1/mods/VanillaFix-1.0.10-99.jar Service=LaunchWrapper Env=CLIENT
+[18:29:47] [main/INFO] [VanillaFix]: Initializing VanillaFix
+[18:29:48] [main/INFO] [VanillaFix]: Initializing StacktraceDeobfuscator
+[18:29:48] [main/INFO] [VanillaFix]: Found MCP method mappings: methods-stable_39.csv
+[18:29:48] [main/INFO] [VanillaFix]: Done initializing StacktraceDeobfuscator
+[18:29:48] [main/INFO] [VanillaFix]: Initializing Bug Fix Mixins
+[18:29:48] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[18:29:48] [main/INFO] [VanillaFix]: Initializing Crash Fix Mixins
+[18:29:48] [main/INFO] [VanillaFix]: Initializing Profiler Improvement Mixins
+[18:29:48] [main/INFO] [VanillaFix]: Initializing Texture Fix Mixins
+[18:29:48] [main/INFO] [VanillaFix]: Initializing Mod Support Mixins
+[18:29:48] [main/WARN] [FML]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
+[18:29:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:29:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:29:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:29:48] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[18:29:48] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[18:29:48] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[18:29:48] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[18:29:48] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: D:\BILD\MAIN1.12.2\Новая_папка\versions\1\mods\preview_OptiFine_1.12.2_HD_U_F6_pre1.jar
+[18:29:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:52] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[18:29:52] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[18:29:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:52] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container gloomyfolken.hooklib.minecraft.SecondaryTransformerHook
+[18:29:52] [main/INFO] [FML]: [HOOKLIB]  Obfuscated: true
+[18:29:52] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container org.tlauncher.skin.cape.asm.TLSkinCapeHooks
+[18:29:52] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[18:29:52] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1fde4f40
+[18:29:52] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[18:29:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:29:52] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraftforge.fml.common.Loader
+[18:29:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraftforge.fml.common.Loader#injectData([Ljava/lang/Object;)
+[18:29:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraftforge.fml.common.Loader
+[18:29:53] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Methods dictionary loaded in 11 ms
+[18:29:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:29:54] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[18:29:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:29:54] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[18:29:54] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[18:29:55] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.world.chunk.BlockStateContainer.func_186018_a
+[18:29:55] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
+[18:29:55] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
+[18:29:56] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.sereneseasons.asm.transformer.EntityRendererTransformer' was detected and will no longer process meta class data
+[18:29:56] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[18:29:56] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:98]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[18:29:56] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:135]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[18:29:57] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[18:29:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[18:29:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[18:29:57] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[18:29:57] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[18:29:57] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[18:29:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[18:29:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[18:29:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:29:58] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
+[18:29:58] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[18:29:58] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[18:29:58] [main/INFO] [Mekanism KeybindingMigrationHelper]: Patching GameSettings.datafix
+[18:29:58] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.mekanism.coremod.KeybindingMigrationHelper' was detected and will no longer process meta class data
+[18:29:59] [main/INFO] [BetterFps]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[18:29:59] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.client.entity.AbstractClientPlayer
+[18:30:00] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationSkin()Lnet/minecraft/util/ResourceLocation;
+[18:30:00] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getLocationCape()Lnet/minecraft/util/ResourceLocation;
+[18:30:00] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.client.entity.AbstractClientPlayer#getSkinType()
+[18:30:00] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.entity.player.EntityPlayer
+[18:30:00] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.entity.player.EntityPlayer#isWearing(Lnet/minecraft/entity/player/EnumPlayerModelParts;)
+[18:30:00] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.client.entity.AbstractClientPlayer
+[18:30:00] [main/INFO] [STDOUT]: [gloomyfolken.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.entity.player.EntityPlayer
+[18:30:00] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:98]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[18:30:00] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:135]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[18:30:01] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:62]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[18:30:01] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
+[18:30:01] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[18:30:01] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[18:30:02] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: 32
+[18:30:02] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[18:30:03] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[18:30:03] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[18:30:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[18:30:04] [Client thread/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[18:30:05] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[18:30:05] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[18:30:06] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[18:30:06] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[18:30:06] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[18:30:06] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[18:30:06] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[18:30:09] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:98]: Added INTERFACE: pl/asie/foamfix/api/IFoamFixMobSpawnerLogic
+[18:30:09] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
+[18:30:09] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
+[18:30:09] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCachePESize
+[18:30:09] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
+[18:30:09] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCache
+[18:30:09] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:158]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCacheTime
+[18:30:12] [Client thread/INFO] [Mekanism KeybindingMigrationHelper]: Patching GameSettings.datafix
+[18:30:12] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Forge ***
+[18:30:12] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[18:30:12] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[18:30:12] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[18:30:12] [Client thread/INFO] [BetterFps]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[18:30:13] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:111]: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[18:30:14] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[18:30:14] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[18:30:14] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[18:30:14] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[18:30:14] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[18:30:14] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[18:30:14] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[18:30:15] [Client thread/INFO] [Config]: [OptiFine] *** Reflector Vanilla ***
+[18:30:15] [Client thread/INFO] [BetterFps]: Patching net.minecraft.client.gui.GuiOptions... (ble)
+[18:30:15] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[18:30:15] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] 
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_F6_pre1
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] Build: 20191206-224929
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_241, Oracle Corporation
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] OpenGL: GeForce GT 1030/PCIe/SSE2, version 4.6.0 NVIDIA 445.75, NVIDIA Corporation
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 32768x32768
+[18:30:17] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 445.75
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  NVIDIA Corporation
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: GeForce GT 1030/PCIe/SSE2
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+[18:30:17] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Loaded shaderpack: Sushi Shader V2 (Chocapic13 edit).zip
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Worlds: -1, 1
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: SHADOW_DARKNESS
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh: 0.03
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world-1/composite.fsh: 0.04
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: TORCH_INTENSITY
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh: 15
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world-1/composite.fsh: 2
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: ATTENUATION
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh: 1
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world-1/composite.fsh: 4
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: MIN_LIGHT
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh: 0.002
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world-1/composite.fsh: 0.0
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: sunPathRotation
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh: -30.0f
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world-1/composite.fsh: -40.0f
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: SHADOW_DARKNESS
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh, world-1/composite.fsh: 0.03
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world1/composite.fsh: 0.04
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: TORCH_INTENSITY
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh, world-1/composite.fsh: 15
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world1/composite.fsh: 20
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: ATTENUATION
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh, world-1/composite.fsh: 1
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world1/composite.fsh: 2
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: MIN_LIGHT
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh, world-1/composite.fsh: 0.002
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world1/composite.fsh: 0.01
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: sunPathRotation
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite.fsh, world-1/composite.fsh: -30.0f
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world1/composite.fsh: -40.0f
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine] Ambiguous shader option: BLOOM_STRENGTH
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in composite2.fsh, world-1/composite2.fsh: 1
+[18:30:17] [Client thread/WARN] [Config]: [OptiFine]  - in world1/composite2.fsh: 4
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[18:30:17] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[18:30:18] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F6_pre1, enabling compatibility features
+[18:30:18] [Client thread/INFO] [FML]: -- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_241, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 70097600 bytes (66 MB) / 276520960 bytes (263 MB) up to 7158890496 bytes (6827 MB)
+  JVM Flags: 3 total; -Xmn128M -Xmx6840M -XX:+UseConcMarkSweepGC
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: 
+  Loaded coremods (and transformers): Inventory Tweaks Coremod (InventoryTweaks-1.64%2Bdev.150.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+                                        sereneseasons.asm.transformer.EntityRendererTransformer
+                                        sereneseasons.asm.transformer.WorldTransformer
+                                      CTMCorePlugin (CTM-MC1.12.2-1.0.1.30.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      ForgelinPlugin (Forgelin-1.8.4.jar)
+                                        
+                                      MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+                                        mekanism.coremod.KeybindingMigrationHelper
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-99.jar)
+                                        
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      TLSkinCapeHookLoader (tlskincape1.12.2-1.4.jar)
+                                        gloomyfolken.hooklib.minecraft.PrimaryClassTransformer
+                                      IvToolkit (IvToolkit-1.3.3-1.12.jar)
+                                        
+                                      IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
+                                        blusunrize.immersiveengineering.common.asm.IEClassTransformer
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 445.75' Renderer: 'GeForce GT 1030/PCIe/SSE2'
+  Suspected Mods: Unknown
+
+[18:30:18] [VersionCheck/INFO] [Config]: [OptiFine] Version found: D3
+[18:30:19] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[18:30:19] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:30:19] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:30:19] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
